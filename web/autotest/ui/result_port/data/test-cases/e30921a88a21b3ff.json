@@ -1,0 +1,60 @@
+{
+  "uid" : "e30921a88a21b3ff",
+  "name" : "test_get_verification_code",
+  "fullName" : "api.testcase.test_login_api.TestLogin#test_get_verification_code",
+  "historyId" : "354c29461ebf51d7005d57c9507c4fda",
+  "time" : {
+    "start" : 1663637544144,
+    "stop" : 1663637544144,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code>>)",
+  "statusTrace" : "file E:\\Users\\laixinhua\\PycharmProjects\\LittleBearAutoTest\\api\\testcase\\test_login_api.py, line 7\n      def test_get_verification_code(self,phone_number):\nE       fixture 'phone_number' not found\n>       available fixtures: app_page, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, clear_yaml, doctest_namespace, extra, get_token, include_metadata_in_junit_xml, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, testrun_uid, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, worker_id\n>       use 'pytest --fixtures [testpath]' for help on them.\n\nE:\\Users\\laixinhua\\PycharmProjects\\LittleBearAutoTest\\api\\testcase\\test_login_api.py:7",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "api.testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-04R5F8L"
+  }, {
+    "name" : "thread",
+    "value" : "14504-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api.testcase.test_login_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e30921a88a21b3ff.json",
+  "parameterValues" : [ ]
+}

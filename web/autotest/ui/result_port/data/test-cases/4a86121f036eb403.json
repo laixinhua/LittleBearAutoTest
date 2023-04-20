@@ -1,0 +1,288 @@
+{
+  "uid" : "4a86121f036eb403",
+  "name" : "关键字搜索",
+  "fullName" : "test_cases.common.test_Product_search.TestProductSearch#test_Comprehensive_search",
+  "historyId" : "a8079f1ddd1e8a09d45b12e8c7795bdd",
+  "time" : {
+    "start" : 1663745566022,
+    "stop" : 1663745601262,
+    "duration" : 35240
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "app_page",
+    "time" : {
+      "start" : 1663745555830,
+      "stop" : 1663745566022,
+      "duration" : 10192
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击同意",
+      "time" : {
+        "start" : 1663745566023,
+        "stop" : 1663745566023,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入账号：13538262412",
+      "time" : {
+        "start" : 1663745567001,
+        "stop" : 1663745567001,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入验证码：868385",
+      "time" : {
+        "start" : 1663745570056,
+        "stop" : 1663745570056,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "勾选我同意并阅读《用户服务协议》与《隐私政策》",
+      "time" : {
+        "start" : 1663745571716,
+        "stop" : 1663745571716,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1663745572369,
+        "stop" : 1663745572369,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "选择公司角色",
+      "time" : {
+        "start" : 1663745573045,
+        "stop" : 1663745573045,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击登录按钮",
+      "time" : {
+        "start" : 1663745574191,
+        "stop" : 1663745574191,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击产品总数",
+      "time" : {
+        "start" : 1663745575154,
+        "stop" : 1663745575154,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击综合搜索",
+      "time" : {
+        "start" : 1663745588127,
+        "stop" : 1663745588127,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入关键字",
+      "time" : {
+        "start" : 1663745588322,
+        "stop" : 1663745588322,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击确定",
+      "time" : {
+        "start" : 1663745590666,
+        "stop" : 1663745590666,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "7afb9853e5d3fe19",
+      "name" : "log",
+      "source" : "7afb9853e5d3fe19.txt",
+      "type" : "text/plain",
+      "size" : 37630
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 11,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "app_page::0",
+    "time" : {
+      "start" : 1663745601263,
+      "stop" : 1663745602176,
+      "duration" : 913
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "产品列表"
+  }, {
+    "name" : "feature",
+    "value" : "产品搜索"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=2, reruns_delay=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases.common"
+  }, {
+    "name" : "suite",
+    "value" : "test_Product_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestProductSearch"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-04R5F8L"
+  }, {
+    "name" : "thread",
+    "value" : "17508-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.common.test_Product_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cb374e5c5630f96c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663673201574,
+        "stop" : 1663673236794,
+        "duration" : 35220
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=2, reruns_delay=3)" ]
+  },
+  "source" : "4a86121f036eb403.json",
+  "parameterValues" : [ ]
+}

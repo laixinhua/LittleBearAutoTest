@@ -1,0 +1,219 @@
+INFO     root:conftest.py:24 -----测试开始-----
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"alwaysMatch": {"platformName": "Android", "appium:platformVersion": "9.0.0", "appium:deviceName": "emulator-5554", "appium:appPackage": "com.honghuang.xiaozhuxiong", "appium:appActivity": "com.honghuang.xiaozhuxiong.login.ui.LoginActivity", "appium:noRest": true, "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:automationName": "Uiautomator2", "appium:ip": "127.0.0.1", "appium:port": 4723}, "firstMatch": [{}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "9.0.0", "deviceName": "emulator-5554", "appPackage": "com.honghuang.xiaozhuxiong", "appActivity": "com.honghuang.xiaozhuxiong.login.ui.LoginActivity", "noRest": true, "unicodeKeyboard": true, "resetKeyboard": true, "automationName": "Uiautomator2", "ip": "127.0.0.1", "port": 4723}}
+DEBUG    urllib3.connectionpool:connectionpool.py:228 Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1148
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 开始查找元素：xpath=//*[starts-with(@text,"同意")]
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u540c\u610f\")]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 GET http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e83-ffff-ffff0000000b/displayed {"id": "00000000-0000-0e83-ffff-ffff0000000b"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "GET /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e83-ffff-ffff0000000b/displayed HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 等待元素可见：//*[starts-with(@text,"同意")],起始时间：2023-02-02 19:58:16.452005,等待时长：0
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u540c\u610f\")]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 对元素//*[starts-with(@text,"同意")]进行点击操作
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e83-ffff-ffff0000000b/click {"id": "00000000-0000-0e83-ffff-ffff0000000b"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e83-ffff-ffff0000000b/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 开始查找元素：xpath=//*[starts-with(@text,"请输入手机号")]
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u8bf7\u8f93\u5165\u624b\u673a\u53f7\")]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 404 534
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u8bf7\u8f93\u5165\u624b\u673a\u53f7\")]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 GET http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e84-ffff-ffff0000001c/displayed {"id": "00000000-0000-0e84-ffff-ffff0000001c"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "GET /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e84-ffff-ffff0000001c/displayed HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 等待元素可见：//*[starts-with(@text,"请输入手机号")],起始时间：2023-02-02 19:58:17.481251,等待时长：0
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u8bf7\u8f93\u5165\u624b\u673a\u53f7\")]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 在元素：xpath=//*[starts-with(@text,"请输入手机号")]中输入内容：13538262412
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e84-ffff-ffff0000001c/clear {"id": "00000000-0000-0e84-ffff-ffff0000001c"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e84-ffff-ffff0000001c/clear HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e84-ffff-ffff0000001c/value {"text": "13538262412", "value": ["1", "3", "5", "3", "8", "2", "6", "2", "4", "1", "2"], "id": "00000000-0000-0e84-ffff-ffff0000001c"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e84-ffff-ffff0000001c/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 开始查找元素：xpath=//*[starts-with(@text,"请输入验证码")]
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u8bf7\u8f93\u5165\u9a8c\u8bc1\u7801\")]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 GET http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e84-ffff-ffff0000002b/displayed {"id": "00000000-0000-0e84-ffff-ffff0000002b"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "GET /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e84-ffff-ffff0000002b/displayed HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 等待元素可见：//*[starts-with(@text,"请输入验证码")],起始时间：2023-02-02 19:58:19.513904,等待时长：0
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u8bf7\u8f93\u5165\u9a8c\u8bc1\u7801\")]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 在元素：xpath=//*[starts-with(@text,"请输入验证码")]中输入内容：868385
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e84-ffff-ffff0000002b/clear {"id": "00000000-0000-0e84-ffff-ffff0000002b"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e84-ffff-ffff0000002b/clear HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e84-ffff-ffff0000002b/value {"text": "868385", "value": ["8", "6", "8", "3", "8", "5"], "id": "00000000-0000-0e84-ffff-ffff0000002b"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e84-ffff-ffff0000002b/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 开始查找元素：xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.RelativeLayout/android.widget.CheckBox
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.RelativeLayout/android.widget.CheckBox"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 GET http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e84-ffff-ffff00000038/displayed {"id": "00000000-0000-0e84-ffff-ffff00000038"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "GET /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e84-ffff-ffff00000038/displayed HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 等待元素可见：/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.RelativeLayout/android.widget.CheckBox,起始时间：2023-02-02 19:58:21.191016,等待时长：0
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.RelativeLayout/android.widget.CheckBox"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 对元素/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.RelativeLayout/android.widget.CheckBox进行点击操作
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e84-ffff-ffff00000038/click {"id": "00000000-0000-0e84-ffff-ffff00000038"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e84-ffff-ffff00000038/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 开始查找元素：xpath=//*[starts-with(@text,"登录")]
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u767b\u5f55\")]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 GET http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e84-ffff-ffff00000022/displayed {"id": "00000000-0000-0e84-ffff-ffff00000022"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "GET /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e84-ffff-ffff00000022/displayed HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 等待元素可见：//*[starts-with(@text,"登录")],起始时间：2023-02-02 19:58:21.798569,等待时长：0
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u767b\u5f55\")]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 对元素//*[starts-with(@text,"登录")]进行点击操作
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e84-ffff-ffff00000022/click {"id": "00000000-0000-0e84-ffff-ffff00000022"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e84-ffff-ffff00000022/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 GET http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/source {}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "GET /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/source HTTP/1.1" 200 1894
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 开始查找元素：xpath=//*[contains(@text,"玩具")]
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "//*[contains(@text,\"\u73a9\u5177\")]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 GET http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e86-ffff-ffff00000054/displayed {"id": "00000000-0000-0e86-ffff-ffff00000054"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "GET /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e86-ffff-ffff00000054/displayed HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 等待元素可见：//*[contains(@text,"玩具")],起始时间：2023-02-02 19:58:22.584386,等待时长：0
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "//*[contains(@text,\"\u73a9\u5177\")]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 对元素//*[contains(@text,"玩具")]进行点击操作
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e86-ffff-ffff00000054/click {"id": "00000000-0000-0e86-ffff-ffff00000054"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e86-ffff-ffff00000054/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 开始查找元素：xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 GET http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e86-ffff-ffff0000004a/displayed {"id": "00000000-0000-0e86-ffff-ffff0000004a"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "GET /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e86-ffff-ffff0000004a/displayed HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 等待元素可见：/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button,起始时间：2023-02-02 19:58:23.452244,等待时长：0
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 对元素/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button进行点击操作
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e86-ffff-ffff0000004a/click {"id": "00000000-0000-0e86-ffff-ffff0000004a"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e86-ffff-ffff0000004a/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 开始查找元素：xpath=//*[starts-with(@text,"消息")]
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u6d88\u606f\")]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 GET http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8a-ffff-ffff00000120/displayed {"id": "00000000-0000-0e8a-ffff-ffff00000120"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "GET /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8a-ffff-ffff00000120/displayed HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 等待元素可见：//*[starts-with(@text,"消息")],起始时间：2023-02-02 19:58:34.416270,等待时长：0
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u6d88\u606f\")]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 对元素//*[starts-with(@text,"消息")]进行点击操作
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8a-ffff-ffff00000120/click {"id": "00000000-0000-0e8a-ffff-ffff00000120"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8a-ffff-ffff00000120/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 开始查找元素：xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.ImageView[1]
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.ImageView[1]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 GET http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8a-ffff-ffff0000015c/displayed {"id": "00000000-0000-0e8a-ffff-ffff0000015c"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "GET /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8a-ffff-ffff0000015c/displayed HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 等待元素可见：/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.ImageView[1],起始时间：2023-02-02 19:58:34.620250,等待时长：1
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.ImageView[1]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 对元素/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.ImageView[1]进行点击操作
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8a-ffff-ffff0000015c/click {"id": "00000000-0000-0e8a-ffff-ffff0000015c"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8a-ffff-ffff0000015c/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 开始查找元素：xpath=//*[starts-with(@text,"未分组成员")]
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u672a\u5206\u7ec4\u6210\u5458\")]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 GET http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8b-ffff-ffff000001ac/displayed {"id": "00000000-0000-0e8b-ffff-ffff000001ac"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "GET /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8b-ffff-ffff000001ac/displayed HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 等待元素可见：//*[starts-with(@text,"未分组成员")],起始时间：2023-02-02 19:58:41.159887,等待时长：0
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u672a\u5206\u7ec4\u6210\u5458\")]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 对元素//*[starts-with(@text,"未分组成员")]进行点击操作
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8b-ffff-ffff000001ac/click {"id": "00000000-0000-0e8b-ffff-ffff000001ac"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8b-ffff-ffff000001ac/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 开始查找元素：xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.RelativeLayout/android.widget.TextView
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.RelativeLayout/android.widget.TextView"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 GET http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8c-ffff-ffff000001e5/displayed {"id": "00000000-0000-0e8c-ffff-ffff000001e5"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "GET /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8c-ffff-ffff000001e5/displayed HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 等待元素可见：/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.RelativeLayout/android.widget.TextView,起始时间：2023-02-02 19:58:41.293417,等待时长：0
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.RelativeLayout/android.widget.TextView"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 获取元素xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.RelativeLayout/android.widget.TextView的文本内容
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 GET http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8c-ffff-ffff000001e5/text {"id": "00000000-0000-0e8c-ffff-ffff000001e5"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "GET /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8c-ffff-ffff000001e5/text HTTP/1.1" 200 74
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 开始查找元素：xpath=//*[starts-with(@text,"请输入关键词")]
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u8bf7\u8f93\u5165\u5173\u952e\u8bcd\")]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 GET http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8c-ffff-ffff000001c5/displayed {"id": "00000000-0000-0e8c-ffff-ffff000001c5"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "GET /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8c-ffff-ffff000001c5/displayed HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 等待元素可见：//*[starts-with(@text,"请输入关键词")],起始时间：2023-02-02 19:58:43.951756,等待时长：0
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u8bf7\u8f93\u5165\u5173\u952e\u8bcd\")]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 在元素：xpath=//*[starts-with(@text,"请输入关键词")]中输入内容：17376652446
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8c-ffff-ffff000001c5/clear {"id": "00000000-0000-0e8c-ffff-ffff000001c5"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8c-ffff-ffff000001c5/clear HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8c-ffff-ffff000001c5/value {"text": "17376652446", "value": ["1", "7", "3", "7", "6", "6", "5", "2", "4", "4", "6"], "id": "00000000-0000-0e8c-ffff-ffff000001c5"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8c-ffff-ffff000001c5/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 开始查找元素：xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.ImageView
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.ImageView"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 GET http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8c-ffff-ffff000001c6/displayed {"id": "00000000-0000-0e8c-ffff-ffff000001c6"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "GET /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8c-ffff-ffff000001c6/displayed HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 等待元素可见：/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.ImageView,起始时间：2023-02-02 19:58:45.703929,等待时长：0
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element {"using": "xpath", "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.ImageView"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:logger.py:40 对元素/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.ImageView进行点击操作
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 POST http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8c-ffff-ffff000001c6/click {"id": "00000000-0000-0e8c-ffff-ffff000001c6"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "POST /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f/element/00000000-0000-0e8c-ffff-ffff000001c6/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request
+INFO     root:conftest.py:30 -----测试结束-----
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 DELETE http://127.0.0.1:4723/wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f {}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:4723 "DELETE /wd/hub/session/908c3532-bac5-4f7c-9e7d-b0103feea09f HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:398 Finished Request

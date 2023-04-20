@@ -1,0 +1,363 @@
+{
+  "uid" : "4e6fcef4a04f5f6a",
+  "name" : "时间段判断",
+  "fullName" : "test_cases.common.test_Product_search.TestProductSearch#test_Comprehensive_search_Time_period_Judgment_time",
+  "historyId" : "6eb84d4f734a01fb9ecc929cba955286",
+  "time" : {
+    "start" : 1663745954336,
+    "stop" : 1663745993024,
+    "duration" : 38688
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+  "statusTrace" : "self = <test_Product_search.TestProductSearch object at 0x000001EF044ED1B0>\napp_page = <appium.webdriver.webdriver.WebDriver (session=\"0e208a85-1c87-4400-8bbf-dba038f7a080\")>\n\n    @allure.story(\"产品列表\")  # allure子模块名称\n    @allure.title(\"时间段判断\")  # allure用例标题\n    @pytest.mark.flaky(reruns=2, reruns_delay=3)  # 失败重跑\n    def test_Comprehensive_search_Time_period_Judgment_time(self, app_page):\n        LoginPage(app_page).login('13538262412', '868385',app_page)\n        RolePage(app_page).Select_company_role()\n        CompanyHomePage(app_page).Total_number_of_products_clicked()\n        time.sleep(10)\n>       ProductPage(app_page).Comprehensive_search_Time_period_Judgment_time()\n\ntest_cases\\common\\test_Product_search.py:233: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npage_obj\\common\\product_page.py:324: in Comprehensive_search_Time_period_Judgment_time\n    toast_element = WebDriverWait(self.driver, 5).until(EC.presence_of_element_located((MobileBy.XPATH, \".//*[contains(@text,'开始时间不能大于结束时间')]\")))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"0e208a85-1c87-4400-8bbf-dba038f7a080\")>\nmethod = <function presence_of_element_located.<locals>._predicate at 0x000001EF03887D90>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except InvalidSelectorException as e:\n                raise e\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message: \nE       Stacktrace:\nE       NoSuchElementError: An element could not be located on the page using the given search parameters.\nE           at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\nE           at processTicksAndRejections (internal/process/task_queues.js:85:5)\n\nvenv\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:89: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "app_page",
+    "time" : {
+      "start" : 1663745943370,
+      "stop" : 1663745954336,
+      "duration" : 10966
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+    "statusTrace" : "self = <test_Product_search.TestProductSearch object at 0x000001EF044ED1B0>\napp_page = <appium.webdriver.webdriver.WebDriver (session=\"0e208a85-1c87-4400-8bbf-dba038f7a080\")>\n\n    @allure.story(\"产品列表\")  # allure子模块名称\n    @allure.title(\"时间段判断\")  # allure用例标题\n    @pytest.mark.flaky(reruns=2, reruns_delay=3)  # 失败重跑\n    def test_Comprehensive_search_Time_period_Judgment_time(self, app_page):\n        LoginPage(app_page).login('13538262412', '868385',app_page)\n        RolePage(app_page).Select_company_role()\n        CompanyHomePage(app_page).Total_number_of_products_clicked()\n        time.sleep(10)\n>       ProductPage(app_page).Comprehensive_search_Time_period_Judgment_time()\n\ntest_cases\\common\\test_Product_search.py:233: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npage_obj\\common\\product_page.py:324: in Comprehensive_search_Time_period_Judgment_time\n    toast_element = WebDriverWait(self.driver, 5).until(EC.presence_of_element_located((MobileBy.XPATH, \".//*[contains(@text,'开始时间不能大于结束时间')]\")))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"0e208a85-1c87-4400-8bbf-dba038f7a080\")>\nmethod = <function presence_of_element_located.<locals>._predicate at 0x000001EF03887D90>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except InvalidSelectorException as e:\n                raise e\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message: \nE       Stacktrace:\nE       NoSuchElementError: An element could not be located on the page using the given search parameters.\nE           at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\nE           at processTicksAndRejections (internal/process/task_queues.js:85:5)\n\nvenv\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:89: TimeoutException",
+    "steps" : [ {
+      "name" : "点击同意",
+      "time" : {
+        "start" : 1663745954336,
+        "stop" : 1663745954337,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入账号：13538262412",
+      "time" : {
+        "start" : 1663745955294,
+        "stop" : 1663745955294,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入验证码：868385",
+      "time" : {
+        "start" : 1663745958256,
+        "stop" : 1663745958256,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "勾选我同意并阅读《用户服务协议》与《隐私政策》",
+      "time" : {
+        "start" : 1663745959901,
+        "stop" : 1663745959901,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1663745960536,
+        "stop" : 1663745960536,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "选择公司角色",
+      "time" : {
+        "start" : 1663745961341,
+        "stop" : 1663745961341,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击登录按钮",
+      "time" : {
+        "start" : 1663745962395,
+        "stop" : 1663745962395,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击产品总数",
+      "time" : {
+        "start" : 1663745963395,
+        "stop" : 1663745963395,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击综合搜索",
+      "time" : {
+        "start" : 1663745976255,
+        "stop" : 1663745976255,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击时间段展开",
+      "time" : {
+        "start" : 1663745976448,
+        "stop" : 1663745976448,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "选择开始时间",
+      "time" : {
+        "start" : 1663745977793,
+        "stop" : 1663745977793,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击确定",
+      "time" : {
+        "start" : 1663745980099,
+        "stop" : 1663745980099,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "选择结束时间",
+      "time" : {
+        "start" : 1663745980894,
+        "stop" : 1663745980894,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击确定",
+      "time" : {
+        "start" : 1663745986487,
+        "stop" : 1663745986487,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击确定",
+      "time" : {
+        "start" : 1663745987114,
+        "stop" : 1663745987114,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "添加失败截图",
+      "time" : {
+        "start" : 1663745993061,
+        "stop" : 1663745993313,
+        "duration" : 252
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1d7f982b95dfd2a0",
+        "name" : "失败截图",
+        "source" : "1d7f982b95dfd2a0.png",
+        "type" : "image/png",
+        "size" : 138091
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c60b29d206835b4f",
+      "name" : "log",
+      "source" : "c60b29d206835b4f.txt",
+      "type" : "text/plain",
+      "size" : 62107
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 16,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "app_page::0",
+    "time" : {
+      "start" : 1663745993313,
+      "stop" : 1663745994203,
+      "duration" : 890
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "产品列表"
+  }, {
+    "name" : "feature",
+    "value" : "产品搜索"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=2, reruns_delay=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases.common"
+  }, {
+    "name" : "suite",
+    "value" : "test_Product_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestProductSearch"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-04R5F8L"
+  }, {
+    "name" : "thread",
+    "value" : "17508-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.common.test_Product_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=2, reruns_delay=3)" ]
+  },
+  "source" : "4e6fcef4a04f5f6a.json",
+  "parameterValues" : [ ]
+}

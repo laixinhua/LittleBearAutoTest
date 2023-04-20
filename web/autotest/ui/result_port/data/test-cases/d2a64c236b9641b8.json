@@ -1,0 +1,265 @@
+{
+  "uid" : "d2a64c236b9641b8",
+  "name" : "产品收藏",
+  "fullName" : "test_cases.company.test_3D_product.Test3DProduct#test_Collection",
+  "historyId" : "104f051dfb3ca474c875343878aaac3e",
+  "time" : {
+    "start" : 1663750766512,
+    "stop" : 1663750784991,
+    "duration" : 18479
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "app_page",
+    "time" : {
+      "start" : 1663750755467,
+      "stop" : 1663750766512,
+      "duration" : 11045
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击同意",
+      "time" : {
+        "start" : 1663750766513,
+        "stop" : 1663750766513,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入账号：13538262412",
+      "time" : {
+        "start" : 1663750767471,
+        "stop" : 1663750767471,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入验证码：868385",
+      "time" : {
+        "start" : 1663750770434,
+        "stop" : 1663750770434,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "勾选我同意并阅读《用户服务协议》与《隐私政策》",
+      "time" : {
+        "start" : 1663750772096,
+        "stop" : 1663750772096,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1663750772705,
+        "stop" : 1663750772705,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "选择公司角色",
+      "time" : {
+        "start" : 1663750773378,
+        "stop" : 1663750773378,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击登录按钮",
+      "time" : {
+        "start" : 1663750774555,
+        "stop" : 1663750774555,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击3D产品",
+      "time" : {
+        "start" : 1663750775553,
+        "stop" : 1663750775553,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击切换视图",
+      "time" : {
+        "start" : 1663750783863,
+        "stop" : 1663750783863,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击收藏按钮",
+      "time" : {
+        "start" : 1663750784787,
+        "stop" : 1663750784787,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "39cea5e62ca5bb30",
+      "name" : "log",
+      "source" : "39cea5e62ca5bb30.txt",
+      "type" : "text/plain",
+      "size" : 38386
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 10,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "app_page::0",
+    "time" : {
+      "start" : 1663750784992,
+      "stop" : 1663750785931,
+      "duration" : 939
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "公司首页3D产品"
+  }, {
+    "name" : "feature",
+    "value" : "3D产品"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=2, reruns_delay=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases.company"
+  }, {
+    "name" : "suite",
+    "value" : "test_3D_product"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test3DProduct"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-04R5F8L"
+  }, {
+    "name" : "thread",
+    "value" : "17508-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.company.test_3D_product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=2, reruns_delay=3)" ]
+  },
+  "source" : "d2a64c236b9641b8.json",
+  "parameterValues" : [ ]
+}

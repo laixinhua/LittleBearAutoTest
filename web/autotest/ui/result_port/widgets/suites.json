@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "7237d7bca15eb88a0d8b6118385589db",
+    "name" : "api.testcase.ExhibitionHall",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 22,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 27
+    }
+  }, {
+    "uid" : "ccfff016f229445b6384261d5516799d",
+    "name" : "test_cases.company",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 14,
+      "skipped" : 0,
+      "passed" : 74,
+      "unknown" : 0,
+      "total" : 88
+    }
+  }, {
+    "uid" : "1c4212561331c6a88755203112fd2922",
+    "name" : "test_cases.common",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 10,
+      "skipped" : 0,
+      "passed" : 89,
+      "unknown" : 0,
+      "total" : 99
+    }
+  }, {
+    "uid" : "63fd71f95a6e11a15765bc8d13201b03",
+    "name" : "api.testcase",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

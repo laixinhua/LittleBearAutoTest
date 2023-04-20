@@ -1,0 +1,414 @@
+{
+  "uid" : "5683536c7979a150",
+  "name" : "外箱装量查询",
+  "fullName" : "test_cases.common.test_Product_search.TestProductSearch#test_Comprehensive_search_Outer_container_loading",
+  "historyId" : "57cbbba704119fc48876cdd154e96b33",
+  "time" : {
+    "start" : 1663746496760,
+    "stop" : 1663746533742,
+    "duration" : 36982
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+  "statusTrace" : "self = <test_Product_search.TestProductSearch object at 0x000001EF044ED630>\napp_page = <appium.webdriver.webdriver.WebDriver (session=\"363e6258-2bd0-4c73-9756-aa6a57c78c88\")>\n\n    @allure.story(\"产品列表\")  # allure子模块名称\n    @allure.title(\"外箱装量查询\")  # allure用例标题\n    @pytest.mark.flaky(reruns=2, reruns_delay=3)  # 失败重跑\n    def test_Comprehensive_search_Outer_container_loading(self, app_page):\n        LoginPage(app_page).login('13538262412', '868385',app_page)\n        RolePage(app_page).Select_company_role()\n        CompanyHomePage(app_page).Total_number_of_products_clicked()\n        time.sleep(10)\n>       ProductPage(app_page).Comprehensive_search_Outer_container_loading()\n\ntest_cases\\common\\test_Product_search.py:269: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npage_obj\\common\\product_page.py:432: in Comprehensive_search_Outer_container_loading\n    toast_element = WebDriverWait(self.driver, 5).until(EC.presence_of_element_located((MobileBy.XPATH, \".//*[contains(@text,'最小装量不能大于最大装量')]\")))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"363e6258-2bd0-4c73-9756-aa6a57c78c88\")>\nmethod = <function presence_of_element_located.<locals>._predicate at 0x000001EF046BC040>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except InvalidSelectorException as e:\n                raise e\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message: \nE       Stacktrace:\nE       NoSuchElementError: An element could not be located on the page using the given search parameters.\nE           at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\nE           at processTicksAndRejections (internal/process/task_queues.js:85:5)\n\nvenv\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:89: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "app_page",
+    "time" : {
+      "start" : 1663746486479,
+      "stop" : 1663746496759,
+      "duration" : 10280
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+    "statusTrace" : "self = <test_Product_search.TestProductSearch object at 0x000001EF044ED630>\napp_page = <appium.webdriver.webdriver.WebDriver (session=\"363e6258-2bd0-4c73-9756-aa6a57c78c88\")>\n\n    @allure.story(\"产品列表\")  # allure子模块名称\n    @allure.title(\"外箱装量查询\")  # allure用例标题\n    @pytest.mark.flaky(reruns=2, reruns_delay=3)  # 失败重跑\n    def test_Comprehensive_search_Outer_container_loading(self, app_page):\n        LoginPage(app_page).login('13538262412', '868385',app_page)\n        RolePage(app_page).Select_company_role()\n        CompanyHomePage(app_page).Total_number_of_products_clicked()\n        time.sleep(10)\n>       ProductPage(app_page).Comprehensive_search_Outer_container_loading()\n\ntest_cases\\common\\test_Product_search.py:269: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npage_obj\\common\\product_page.py:432: in Comprehensive_search_Outer_container_loading\n    toast_element = WebDriverWait(self.driver, 5).until(EC.presence_of_element_located((MobileBy.XPATH, \".//*[contains(@text,'最小装量不能大于最大装量')]\")))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"363e6258-2bd0-4c73-9756-aa6a57c78c88\")>\nmethod = <function presence_of_element_located.<locals>._predicate at 0x000001EF046BC040>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except InvalidSelectorException as e:\n                raise e\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message: \nE       Stacktrace:\nE       NoSuchElementError: An element could not be located on the page using the given search parameters.\nE           at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\nE           at processTicksAndRejections (internal/process/task_queues.js:85:5)\n\nvenv\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:89: TimeoutException",
+    "steps" : [ {
+      "name" : "点击同意",
+      "time" : {
+        "start" : 1663746496760,
+        "stop" : 1663746496760,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入账号：13538262412",
+      "time" : {
+        "start" : 1663746497731,
+        "stop" : 1663746497731,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入验证码：868385",
+      "time" : {
+        "start" : 1663746500839,
+        "stop" : 1663746500839,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "勾选我同意并阅读《用户服务协议》与《隐私政策》",
+      "time" : {
+        "start" : 1663746502567,
+        "stop" : 1663746502567,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1663746503243,
+        "stop" : 1663746503243,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "选择公司角色",
+      "time" : {
+        "start" : 1663746504001,
+        "stop" : 1663746504002,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击登录按钮",
+      "time" : {
+        "start" : 1663746505115,
+        "stop" : 1663746505115,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击产品总数",
+      "time" : {
+        "start" : 1663746506087,
+        "stop" : 1663746506087,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击综合搜索",
+      "time" : {
+        "start" : 1663746519186,
+        "stop" : 1663746519186,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "上拉屏幕",
+      "time" : {
+        "start" : 1663746521379,
+        "stop" : 1663746521379,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击外箱装量展开",
+      "time" : {
+        "start" : 1663746522949,
+        "stop" : 1663746522950,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入外箱装量-最低",
+      "time" : {
+        "start" : 1663746523893,
+        "stop" : 1663746523893,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入外箱装量-最高",
+      "time" : {
+        "start" : 1663746525698,
+        "stop" : 1663746525698,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击外箱装量-收起",
+      "time" : {
+        "start" : 1663746527327,
+        "stop" : 1663746527327,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击确定",
+      "time" : {
+        "start" : 1663746527963,
+        "stop" : 1663746527963,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "添加失败截图",
+      "time" : {
+        "start" : 1663746533772,
+        "stop" : 1663746534044,
+        "duration" : 272
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "787cf0c38245bc1a",
+        "name" : "失败截图",
+        "source" : "787cf0c38245bc1a.png",
+        "type" : "image/png",
+        "size" : 139434
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c4a35997763c950b",
+      "name" : "log",
+      "source" : "c4a35997763c950b.txt",
+      "type" : "text/plain",
+      "size" : 175987
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 16,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "app_page::0",
+    "time" : {
+      "start" : 1663746534044,
+      "stop" : 1663746534935,
+      "duration" : 891
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "产品列表"
+  }, {
+    "name" : "feature",
+    "value" : "产品搜索"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=2, reruns_delay=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases.common"
+  }, {
+    "name" : "suite",
+    "value" : "test_Product_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestProductSearch"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-04R5F8L"
+  }, {
+    "name" : "thread",
+    "value" : "17508-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.common.test_Product_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9caa596e7a859d30",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663746419920,
+        "stop" : 1663746482103,
+        "duration" : 62183
+      }
+    }, {
+      "uid" : "494a61d58affb84e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663746368026,
+        "stop" : 1663746405065,
+        "duration" : 37039
+      }
+    }, {
+      "uid" : "2f0523efa959f6d9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\laixinhua\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:33:12)\n    at AndroidUiautomator2Driver.findElement (C:\\Users\\laixinhua\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:53:10)",
+      "time" : {
+        "start" : 1663674118641,
+        "stop" : 1663674181050,
+        "duration" : 62409
+      }
+    }, {
+      "uid" : "f16d22b9c563bb1b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\laixinhua\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:33:12)\n    at AndroidUiautomator2Driver.findElement (C:\\Users\\laixinhua\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:53:10)",
+      "time" : {
+        "start" : 1663674066668,
+        "stop" : 1663674104788,
+        "duration" : 38120
+      }
+    }, {
+      "uid" : "d2b2fde4565af950",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\laixinhua\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:33:12)\n    at AndroidUiautomator2Driver.findElement (C:\\Users\\laixinhua\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:53:10)",
+      "time" : {
+        "start" : 1663674014672,
+        "stop" : 1663674051159,
+        "duration" : 36487
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "flaky(reruns=2, reruns_delay=3)" ]
+  },
+  "source" : "5683536c7979a150.json",
+  "parameterValues" : [ ]
+}

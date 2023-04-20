@@ -1,0 +1,285 @@
+{
+  "uid" : "3cfe39ceda37d5f4",
+  "name" : "test_get_verification_code",
+  "fullName" : "api.testcase.test_login_api.TestLogin#test_get_verification_code",
+  "historyId" : "354c29461ebf51d7005d57c9507c4fda",
+  "time" : {
+    "start" : 1663837546224,
+    "stop" : 1663837546224,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code>>)",
+  "statusTrace" : "file E:\\Users\\laixinhua\\PycharmProjects\\LittleBearAutoTest\\api\\testcase\\test_login_api.py, line 7\n      def test_get_verification_code(self,phone_number):\nE       fixture 'phone_number' not found\n>       available fixtures: app_page, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, clear_yaml, doctest_namespace, extra, get_token, include_metadata_in_junit_xml, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, testrun_uid, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, worker_id\n>       use 'pytest --fixtures [testpath]' for help on them.\n\nE:\\Users\\laixinhua\\PycharmProjects\\LittleBearAutoTest\\api\\testcase\\test_login_api.py:7",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 21,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "clear_yaml",
+    "time" : {
+      "start" : 1663837545181,
+      "stop" : 1663837545181,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1663837545181,
+      "stop" : 1663837545215,
+      "duration" : 34
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "api.testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-04R5F8L"
+  }, {
+    "name" : "thread",
+    "value" : "9772-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api.testcase.test_login_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8a10ba0cdc3f9f54",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code>>)",
+      "time" : {
+        "start" : 1663837545180,
+        "stop" : 1663837545180,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8dff0642d5106929",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code>>)",
+      "time" : {
+        "start" : 1663837391015,
+        "stop" : 1663837391015,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d790264401f9796d",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code>>)",
+      "time" : {
+        "start" : 1663837389944,
+        "stop" : 1663837389944,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b589765e6646953",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code>>)",
+      "time" : {
+        "start" : 1663837299361,
+        "stop" : 1663837299361,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f40d09077afd59c9",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code>>)",
+      "time" : {
+        "start" : 1663837297912,
+        "stop" : 1663837297912,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cae001fa740e0eef",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code>>)",
+      "time" : {
+        "start" : 1663837102949,
+        "stop" : 1663837102949,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fdf99ec95ee79a70",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code>>)",
+      "time" : {
+        "start" : 1663837101906,
+        "stop" : 1663837101906,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "64fa6c63784de217",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code>>)",
+      "time" : {
+        "start" : 1663837001292,
+        "stop" : 1663837001292,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "680071c6f955bbfd",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code>>)",
+      "time" : {
+        "start" : 1663837000206,
+        "stop" : 1663837000206,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "265d17c9a322757",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code>>)",
+      "time" : {
+        "start" : 1663745038159,
+        "stop" : 1663745038159,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8aa4e7f1bd540a98",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code>>)",
+      "time" : {
+        "start" : 1663745037094,
+        "stop" : 1663745037094,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "72f64e9a3c744b71",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code>>)",
+      "time" : {
+        "start" : 1663672562874,
+        "stop" : 1663672562874,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "34e65adef33320ad",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code>>)",
+      "time" : {
+        "start" : 1663672561799,
+        "stop" : 1663672561799,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "40b7b336e5413230",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code>>)",
+      "time" : {
+        "start" : 1663642301230,
+        "stop" : 1663642301230,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4031ab47d6ee004e",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code>>)",
+      "time" : {
+        "start" : 1663642300185,
+        "stop" : 1663642300185,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e54b10cd7ff723a0",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code>>)",
+      "time" : {
+        "start" : 1663642215548,
+        "stop" : 1663642215548,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1c566189def120d6",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code>>)",
+      "time" : {
+        "start" : 1663642214499,
+        "stop" : 1663642214499,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9fc3fe962bf9e2e8",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code>>)",
+      "time" : {
+        "start" : 1663642119915,
+        "stop" : 1663642119915,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "da15c2bdaf0d28e0",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code>>)",
+      "time" : {
+        "start" : 1663642118842,
+        "stop" : 1663642118842,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d0a542745793255e",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code>>)",
+      "time" : {
+        "start" : 1663637545427,
+        "stop" : 1663637545427,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e30921a88a21b3ff",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code>>)",
+      "time" : {
+        "start" : 1663637544144,
+        "stop" : 1663637544144,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3cfe39ceda37d5f4.json",
+  "parameterValues" : [ ]
+}

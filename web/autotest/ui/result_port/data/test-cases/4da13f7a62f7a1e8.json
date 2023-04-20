@@ -1,0 +1,370 @@
+{
+  "uid" : "4da13f7a62f7a1e8",
+  "name" : "Logo查询",
+  "fullName" : "test_cases.common.test_Query_vendor.TestQueryVendor#test_Logo_search",
+  "historyId" : "0ac9f3ee4fd558d2a1e69f002e2a8eb9",
+  "time" : {
+    "start" : 1663747111298,
+    "stop" : 1663747134917,
+    "duration" : 23619
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "app_page",
+    "time" : {
+      "start" : 1663747100837,
+      "stop" : 1663747111297,
+      "duration" : 10460
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击同意",
+      "time" : {
+        "start" : 1663747111298,
+        "stop" : 1663747111298,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入账号：13538262412",
+      "time" : {
+        "start" : 1663747112307,
+        "stop" : 1663747112307,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入验证码：868385",
+      "time" : {
+        "start" : 1663747115325,
+        "stop" : 1663747115325,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "勾选我同意并阅读《用户服务协议》与《隐私政策》",
+      "time" : {
+        "start" : 1663747116966,
+        "stop" : 1663747116966,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1663747117571,
+        "stop" : 1663747117571,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "选择公司角色",
+      "time" : {
+        "start" : 1663747118382,
+        "stop" : 1663747118382,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击登录按钮",
+      "time" : {
+        "start" : 1663747119453,
+        "stop" : 1663747119453,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击厂商总数",
+      "time" : {
+        "start" : 1663747120425,
+        "stop" : 1663747120425,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击相机按钮",
+      "time" : {
+        "start" : 1663747123291,
+        "stop" : 1663747123291,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "要允许小竹熊拍摄照片和录制视频吗？-允许",
+      "time" : {
+        "start" : 1663747125129,
+        "stop" : 1663747125129,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "要允许小竹熊录制音频吗？-允许",
+      "time" : {
+        "start" : 1663747126092,
+        "stop" : 1663747126092,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "要允许小竹熊访问您设备上的照片、媒体内容和文件吗？-允许",
+      "time" : {
+        "start" : 1663747127062,
+        "stop" : 1663747127062,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "选择图二",
+      "time" : {
+        "start" : 1663747127152,
+        "stop" : 1663747127152,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击完成",
+      "time" : {
+        "start" : 1663747128666,
+        "stop" : 1663747128667,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a7aadf8fda6eee59",
+      "name" : "log",
+      "source" : "a7aadf8fda6eee59.txt",
+      "type" : "text/plain",
+      "size" : 214608
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 14,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "app_page::0",
+    "time" : {
+      "start" : 1663747134917,
+      "stop" : 1663747135844,
+      "duration" : 927
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "查询厂商"
+  }, {
+    "name" : "story",
+    "value" : "查询厂商"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=2, reruns_delay=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases.common"
+  }, {
+    "name" : "suite",
+    "value" : "test_Query_vendor"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestQueryVendor"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-04R5F8L"
+  }, {
+    "name" : "thread",
+    "value" : "17508-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.common.test_Query_vendor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5da675ab62b6b089",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663747047638,
+        "stop" : 1663747096637,
+        "duration" : 48999
+      }
+    }, {
+      "uid" : "214d872270e81a7d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663746983893,
+        "stop" : 1663747031739,
+        "duration" : 47846
+      }
+    }, {
+      "uid" : "3136906f3b191b0a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\laixinhua\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:33:12)\n    at AndroidUiautomator2Driver.findElement (C:\\Users\\laixinhua\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:53:10)",
+      "time" : {
+        "start" : 1663674872496,
+        "stop" : 1663674914665,
+        "duration" : 42169
+      }
+    }, {
+      "uid" : "ae6673e0231fc67c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\laixinhua\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:33:12)\n    at AndroidUiautomator2Driver.findElement (C:\\Users\\laixinhua\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:53:10)",
+      "time" : {
+        "start" : 1663674816348,
+        "stop" : 1663674859344,
+        "duration" : 42996
+      }
+    }, {
+      "uid" : "1bf31c32a8fcca23",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\laixinhua\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:33:12)\n    at AndroidUiautomator2Driver.findElement (C:\\Users\\laixinhua\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:53:10)",
+      "time" : {
+        "start" : 1663674759233,
+        "stop" : 1663674802062,
+        "duration" : 42829
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=2, reruns_delay=3)" ]
+  },
+  "source" : "4da13f7a62f7a1e8.json",
+  "parameterValues" : [ ]
+}

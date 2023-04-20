@@ -1,0 +1,39 @@
+desired_caps:
+  platformName: Android
+  platformVersion: 9.0.0
+  deviceName: emulator-5554
+  appPackage: com.honghuang.xiaozhuxiong
+#  appActivity: com.honghuang.xiaozhuxiong.activity.LoginActivity
+  appActivity: com.honghuang.xiaozhuxiong.login.ui.LoginActivity
+  noRest: True
+  unicodeKeyboard: True #是使用unicode编码方式发送字符串
+  resetKeyboard: True #隐藏键盘
+  automationName: Uiautomator2  #toast弹框需要这个参数
+  ip: 127.0.0.1
+  port: 4723
+
+#升级pip版本
+#python -m pip install --upgrade pip
+
+#导出requirements
+#pip freeze > xxx.txt
+#导入requirements
+#pip install -r xxx.txt
+
+
+#adb shell dumpsys activity | findstr "mFocusedActivity" 获取当前activity 首页
+#adb shell dumpsys window | findstr mCurrentFocus 获取当前包名和activity
+#{
+#  "platformName": "Android",
+#  "platformVersion": "7.1.2",
+#  "deviceName": "emulator-5554",
+#  "appPackage": "com.xiaozhuxiong.www",
+#  "appActivity": "com.xiaozhuxiong.www.MainActivity",
+#  "noRest": "False"
+#}
+
+#adb devices  显示offline 处理方法如下
+#杀掉服务器
+#adb kill-server
+#重启服务器
+#adb start-server

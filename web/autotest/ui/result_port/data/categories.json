@@ -1,0 +1,857 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "children" : [ {
+        "name" : "价格区间",
+        "uid" : "c204c27ae8b75358",
+        "parentUid" : "3101f2a1fe596c5a549434ca208cc556",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663745849738,
+          "stop" : 1663745883448,
+          "duration" : 33710
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "外箱装量查询",
+        "uid" : "5683536c7979a150",
+        "parentUid" : "3101f2a1fe596c5a549434ca208cc556",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663746496760,
+          "stop" : 1663746533742,
+          "duration" : 36982
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3101f2a1fe596c5a549434ca208cc556"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "children" : [ {
+        "name" : "时间段判断",
+        "uid" : "8158b0748e2abf80",
+        "parentUid" : "6d4c48cc30f099d23ea785ef937a6e2a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663746060328,
+          "stop" : 1663746096367,
+          "duration" : 36039
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6d4c48cc30f099d23ea785ef937a6e2a"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "children" : [ {
+        "name" : "包装方式查询",
+        "uid" : "8344144b9496b5c1",
+        "parentUid" : "4d280ebda0b8100d52d49c3db4597626",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663746249050,
+          "stop" : 1663746305345,
+          "duration" : 56295
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改生日",
+        "uid" : "a835f0ca333568f",
+        "parentUid" : "4d280ebda0b8100d52d49c3db4597626",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663748233153,
+          "stop" : 1663748280210,
+          "duration" : 47057
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改个人信息",
+        "uid" : "d5a3ccf9c15a28a2",
+        "parentUid" : "4d280ebda0b8100d52d49c3db4597626",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663748449706,
+          "stop" : 1663748515426,
+          "duration" : 65720
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "厂商游客注册",
+        "uid" : "62c42e915bb9497b",
+        "parentUid" : "4d280ebda0b8100d52d49c3db4597626",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663750201144,
+          "stop" : 1663750255770,
+          "duration" : 54626
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "公司游客功能点击",
+        "uid" : "9b092e2d251acd41",
+        "parentUid" : "4d280ebda0b8100d52d49c3db4597626",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663750454324,
+          "stop" : 1663750627229,
+          "duration" : 172905
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击品牌展厅-更多",
+        "uid" : "480b27468b029d7d",
+        "parentUid" : "4d280ebda0b8100d52d49c3db4597626",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663751550360,
+          "stop" : 1663751591078,
+          "duration" : 40718
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击推荐产品",
+        "uid" : "77a7c5762bb6c43c",
+        "parentUid" : "4d280ebda0b8100d52d49c3db4597626",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663751735704,
+          "stop" : 1663751775793,
+          "duration" : 40089
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击返回",
+        "uid" : "15ba693ffb448eed",
+        "parentUid" : "4d280ebda0b8100d52d49c3db4597626",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663753052806,
+          "stop" : 1663753093089,
+          "duration" : 40283
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击返回",
+        "uid" : "df6a570533632f30",
+        "parentUid" : "4d280ebda0b8100d52d49c3db4597626",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663753211762,
+          "stop" : 1663753251285,
+          "duration" : 39523
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "生成报价",
+        "uid" : "e964f5d7a1a9df07",
+        "parentUid" : "4d280ebda0b8100d52d49c3db4597626",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663755432280,
+          "stop" : 1663755475396,
+          "duration" : 43116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4d280ebda0b8100d52d49c3db4597626"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "children" : [ {
+        "name" : "个人信息",
+        "uid" : "aa72b4332efa54",
+        "parentUid" : "a633506509fa4352f3e16b36bbb07af1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663748808718,
+          "stop" : 1663748848133,
+          "duration" : 39415
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "公司游客注册",
+        "uid" : "de795324bfad8d70",
+        "parentUid" : "a633506509fa4352f3e16b36bbb07af1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663749988103,
+          "stop" : 1663750042527,
+          "duration" : 54424
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击首页小展厅轮播图",
+        "uid" : "2acf2dc0a070f76c",
+        "parentUid" : "a633506509fa4352f3e16b36bbb07af1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663751389852,
+          "stop" : 1663751430154,
+          "duration" : 40302
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "切换业务员",
+        "uid" : "c5895f4b745887f8",
+        "parentUid" : "a633506509fa4352f3e16b36bbb07af1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663752404010,
+          "stop" : 1663752454725,
+          "duration" : 50715
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查看更多",
+        "uid" : "964def51d29dd967",
+        "parentUid" : "a633506509fa4352f3e16b36bbb07af1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663753370058,
+          "stop" : 1663753412133,
+          "duration" : 42075
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "扫码搜索",
+        "uid" : "ce7859298e08764f",
+        "parentUid" : "a633506509fa4352f3e16b36bbb07af1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663753537142,
+          "stop" : 1663753579475,
+          "duration" : 42333
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "关键词搜索",
+        "uid" : "65ae1f7c825a554d",
+        "parentUid" : "a633506509fa4352f3e16b36bbb07af1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663753721574,
+          "stop" : 1663753765854,
+          "duration" : 44280
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "选择入驻厂家",
+        "uid" : "e315bdc8893047b1",
+        "parentUid" : "a633506509fa4352f3e16b36bbb07af1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663753899538,
+          "stop" : 1663753944968,
+          "duration" : 45430
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "入驻厂家查询",
+        "uid" : "97b6840bfe7b50e1",
+        "parentUid" : "a633506509fa4352f3e16b36bbb07af1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663754081407,
+          "stop" : 1663754127677,
+          "duration" : 46270
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "选择展厅类目",
+        "uid" : "628919c5b07a1a77",
+        "parentUid" : "a633506509fa4352f3e16b36bbb07af1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663754259993,
+          "stop" : 1663754305557,
+          "duration" : 45564
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "展厅类目-产品查询",
+        "uid" : "af4b19404eb40de3",
+        "parentUid" : "a633506509fa4352f3e16b36bbb07af1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663754441627,
+          "stop" : 1663754488615,
+          "duration" : 46988
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a633506509fa4352f3e16b36bbb07af1"
+    }, {
+      "name" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code>>)",
+      "children" : [ {
+        "name" : "test_get_verification_code",
+        "uid" : "3cfe39ceda37d5f4",
+        "parentUid" : "4f1bdabc245491129a5bdd3002ef8406",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663837546224,
+          "stop" : 1663837546224,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 21,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4f1bdabc245491129a5bdd3002ef8406"
+    }, {
+      "name" : "KeyError: 'verificationCode'",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "3fdfc0e6b165c671",
+        "parentUid" : "c8255391c65d98f8495abe23a3a527eb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663837547387,
+          "stop" : 1663837547389,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 21,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c8255391c65d98f8495abe23a3a527eb"
+    }, {
+      "name" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code_with_phone_number>>)",
+      "children" : [ {
+        "name" : "test_get_verification_code_with_phone_number",
+        "uid" : "f20a2d9e2013f6e7",
+        "parentUid" : "fbc1e3ca24f56b27b13e2c4c35dfc9ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675327443426,
+          "stop" : 1675327443426,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_verification_code_with_phone_number",
+        "uid" : "d58606a517b135aa",
+        "parentUid" : "fbc1e3ca24f56b27b13e2c4c35dfc9ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675327458098,
+          "stop" : 1675327458098,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fbc1e3ca24f56b27b13e2c4c35dfc9ac"
+    }, {
+      "name" : "KeyError: 'token'",
+      "children" : [ {
+        "name" : "test_Company_Role_Login",
+        "uid" : "6cb80715e37c1646",
+        "parentUid" : "00568dc641828aa8c7ddedb5eed6ad50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675327445399,
+          "stop" : 1675327445406,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Hall_Role_Login",
+        "uid" : "b3887b19f9de84c2",
+        "parentUid" : "00568dc641828aa8c7ddedb5eed6ad50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675327446434,
+          "stop" : 1675327446442,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Vendor_Role_Login",
+        "uid" : "d25c080e7e3597a6",
+        "parentUid" : "00568dc641828aa8c7ddedb5eed6ad50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675327447466,
+          "stop" : 1675327447474,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Visitor_login",
+        "uid" : "2e7060102c60048b",
+        "parentUid" : "00568dc641828aa8c7ddedb5eed6ad50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675327448501,
+          "stop" : 1675327448509,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Query_the_3D_products_in_the_exhibition_hall",
+        "uid" : "7c943329f9df3ef0",
+        "parentUid" : "00568dc641828aa8c7ddedb5eed6ad50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675327449540,
+          "stop" : 1675327449560,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Query_the_3D_products_in_the_exhibition_hall_with_keywork",
+        "uid" : "3b2869cd1f21e68c",
+        "parentUid" : "00568dc641828aa8c7ddedb5eed6ad50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675327450595,
+          "stop" : 1675327450603,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Sorting_3D_product_in_the_exhibition_hall",
+        "uid" : "f5d7b6d6ea26c9a8",
+        "parentUid" : "00568dc641828aa8c7ddedb5eed6ad50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675327451638,
+          "stop" : 1675327451645,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Collect_3D_product_in_the_exhibition_hall",
+        "uid" : "4ff0763c3bd8d528",
+        "parentUid" : "00568dc641828aa8c7ddedb5eed6ad50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675327452682,
+          "stop" : 1675327452701,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Add_Product_Footprint",
+        "uid" : "de0ed9576ca9fd2a",
+        "parentUid" : "00568dc641828aa8c7ddedb5eed6ad50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675327453738,
+          "stop" : 1675327453745,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Get_3D_product_advertising",
+        "uid" : "96dc87135f5e11f0",
+        "parentUid" : "00568dc641828aa8c7ddedb5eed6ad50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675327454799,
+          "stop" : 1675327454806,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_3D_product_add_advertisement_visit_record",
+        "uid" : "dbd346ae70130fcf",
+        "parentUid" : "00568dc641828aa8c7ddedb5eed6ad50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675327455843,
+          "stop" : 1675327455854,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Contact_manufacturers_for_3D_products",
+        "uid" : "c4cbafa32f29c218",
+        "parentUid" : "00568dc641828aa8c7ddedb5eed6ad50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675327456892,
+          "stop" : 1675327456900,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "ac086213de60fa72",
+        "parentUid" : "00568dc641828aa8c7ddedb5eed6ad50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675327459295,
+          "stop" : 1675327459483,
+          "duration" : 188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_Universal_verification_code",
+        "uid" : "b14cb534de454626",
+        "parentUid" : "00568dc641828aa8c7ddedb5eed6ad50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675327460506,
+          "stop" : 1675327460516,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Random_Select_Role",
+        "uid" : "4018ae94b2367f65",
+        "parentUid" : "00568dc641828aa8c7ddedb5eed6ad50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675327461542,
+          "stop" : 1675327461553,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Company_Role_Login",
+        "uid" : "805a14ca4193a03",
+        "parentUid" : "00568dc641828aa8c7ddedb5eed6ad50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675327462582,
+          "stop" : 1675327462602,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Hall_Role_Login",
+        "uid" : "26c96121f1fa876",
+        "parentUid" : "00568dc641828aa8c7ddedb5eed6ad50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675327463628,
+          "stop" : 1675327463635,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Vendor_Role_Login",
+        "uid" : "3a48e2c4b45f8ffc",
+        "parentUid" : "00568dc641828aa8c7ddedb5eed6ad50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675327464661,
+          "stop" : 1675327464670,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Visitor_login",
+        "uid" : "13ca29f4ef3d37e8",
+        "parentUid" : "00568dc641828aa8c7ddedb5eed6ad50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675327465693,
+          "stop" : 1675327465719,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Get_statistics_on_the_first_page_of_the_exhibition_hall",
+        "uid" : "5bc047846ff72f0d",
+        "parentUid" : "00568dc641828aa8c7ddedb5eed6ad50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675327466745,
+          "stop" : 1675327466752,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "00568dc641828aa8c7ddedb5eed6ad50"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

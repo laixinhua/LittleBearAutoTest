@@ -1,0 +1,3882 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "图搜模块",
+    "children" : [ {
+      "name" : "扫码搜索",
+      "children" : [ {
+        "name" : "相册扫码",
+        "uid" : "aa04c10c1d9327d2",
+        "parentUid" : "31d5b5585ff0576a7309489701e4a1c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663745077478,
+          "stop" : 1663745106715,
+          "duration" : 29237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击图搜",
+        "uid" : "83a420c111af83e4",
+        "parentUid" : "31d5b5585ff0576a7309489701e4a1c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663745118704,
+          "stop" : 1663745148454,
+          "duration" : 29750
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "图搜-旋转",
+        "uid" : "40978fa73aa1e96c",
+        "parentUid" : "31d5b5585ff0576a7309489701e4a1c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663745160359,
+          "stop" : 1663745190442,
+          "duration" : 30083
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击返回",
+        "uid" : "a3a956455e572aab",
+        "parentUid" : "31d5b5585ff0576a7309489701e4a1c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663837402679,
+          "stop" : 1663837419224,
+          "duration" : 16545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 9,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31d5b5585ff0576a7309489701e4a1c3"
+    }, {
+      "name" : "相机搜索",
+      "children" : [ {
+        "name" : "拍照搜索",
+        "uid" : "7ced2c21e7f37f16",
+        "parentUid" : "34a33b5f910b0aa904164428390a7c60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663745202388,
+          "stop" : 1663745232104,
+          "duration" : 29716
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "34a33b5f910b0aa904164428390a7c60"
+    } ],
+    "uid" : "d5f4d49f0dba11afffd9dabe77cf2986"
+  }, {
+    "name" : "产品搜索",
+    "children" : [ {
+      "name" : "产品列表",
+      "children" : [ {
+        "name" : "列表返回",
+        "uid" : "e8e26b6e23a3b136",
+        "parentUid" : "3b78a4c05fcd6652adf820a4ef51ea74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663745243932,
+          "stop" : 1663745257063,
+          "duration" : 13131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "拍照搜索",
+        "uid" : "d979e0ed08122fce",
+        "parentUid" : "3b78a4c05fcd6652adf820a4ef51ea74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663745515001,
+          "stop" : 1663745554912,
+          "duration" : 39911
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "关键字搜索",
+        "uid" : "4a86121f036eb403",
+        "parentUid" : "3b78a4c05fcd6652adf820a4ef51ea74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663745566022,
+          "stop" : 1663745601262,
+          "duration" : 35240
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "搜索类型",
+        "uid" : "24d21f75f7b62689",
+        "parentUid" : "3b78a4c05fcd6652adf820a4ef51ea74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663745613118,
+          "stop" : 1663745648410,
+          "duration" : 35292
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "是否模糊",
+        "uid" : "ccd5ba5bcdfa03ff",
+        "parentUid" : "3b78a4c05fcd6652adf820a4ef51ea74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663745659279,
+          "stop" : 1663745691546,
+          "duration" : 32267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "厂商搜索",
+        "uid" : "b06eba735f4dc783",
+        "parentUid" : "3b78a4c05fcd6652adf820a4ef51ea74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663745704284,
+          "stop" : 1663745740832,
+          "duration" : 36548
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "价格区间",
+        "uid" : "c204c27ae8b75358",
+        "parentUid" : "3b78a4c05fcd6652adf820a4ef51ea74",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663745849738,
+          "stop" : 1663745883448,
+          "duration" : 33710
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "时间段查询",
+        "uid" : "f196732628cf9d02",
+        "parentUid" : "3b78a4c05fcd6652adf820a4ef51ea74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663745895717,
+          "stop" : 1663745942456,
+          "duration" : 46739
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "时间段判断",
+        "uid" : "8158b0748e2abf80",
+        "parentUid" : "3b78a4c05fcd6652adf820a4ef51ea74",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663746060328,
+          "stop" : 1663746096367,
+          "duration" : 36039
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "包装方式查询",
+        "uid" : "8344144b9496b5c1",
+        "parentUid" : "3b78a4c05fcd6652adf820a4ef51ea74",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663746249050,
+          "stop" : 1663746305345,
+          "duration" : 56295
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "证书认证查询",
+        "uid" : "36898a0e32419eb7",
+        "parentUid" : "3b78a4c05fcd6652adf820a4ef51ea74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663746318723,
+          "stop" : 1663746355492,
+          "duration" : 36769
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "外箱装量查询",
+        "uid" : "5683536c7979a150",
+        "parentUid" : "3b78a4c05fcd6652adf820a4ef51ea74",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663746496760,
+          "stop" : 1663746533742,
+          "duration" : 36982
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "外箱规格查询",
+        "uid" : "ba29dcb78833e043",
+        "parentUid" : "3b78a4c05fcd6652adf820a4ef51ea74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663746546263,
+          "stop" : 1663746589765,
+          "duration" : 43502
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "授权类型查询",
+        "uid" : "c5e3926ae420f8e5",
+        "parentUid" : "3b78a4c05fcd6652adf820a4ef51ea74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663746601648,
+          "stop" : 1663746641237,
+          "duration" : 39589
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品排序",
+        "uid" : "acf0e53f096b2383",
+        "parentUid" : "3b78a4c05fcd6652adf820a4ef51ea74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663746652265,
+          "stop" : 1663746731664,
+          "duration" : 79399
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品分类",
+        "uid" : "da0db1397fffcd41",
+        "parentUid" : "3b78a4c05fcd6652adf820a4ef51ea74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663746743488,
+          "stop" : 1663746780150,
+          "duration" : 36662
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查看产品",
+        "uid" : "a995f4346c193a13",
+        "parentUid" : "3b78a4c05fcd6652adf820a4ef51ea74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663746791193,
+          "stop" : 1663746823557,
+          "duration" : 32364
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品加购",
+        "uid" : "c26288ccf277e692",
+        "parentUid" : "3b78a4c05fcd6652adf820a4ef51ea74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663746836005,
+          "stop" : 1663746868768,
+          "duration" : 32763
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品收藏",
+        "uid" : "c856f04f92983504",
+        "parentUid" : "3b78a4c05fcd6652adf820a4ef51ea74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663746880579,
+          "stop" : 1663746913605,
+          "duration" : 33026
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击购物车按钮",
+        "uid" : "a89507934da8ddef",
+        "parentUid" : "3b78a4c05fcd6652adf820a4ef51ea74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663746925600,
+          "stop" : 1663746947951,
+          "duration" : 22351
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3b78a4c05fcd6652adf820a4ef51ea74"
+    }, {
+      "name" : "产品搜索",
+      "children" : [ {
+        "name" : "相机搜索",
+        "uid" : "bc6397ab286bf8c0",
+        "parentUid" : "1ab8e448480371fe5b17fb3b9a7c50d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663745268368,
+          "stop" : 1663745299441,
+          "duration" : 31073
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "关键字搜索",
+        "uid" : "90c0d7c6236c6fc8",
+        "parentUid" : "1ab8e448480371fe5b17fb3b9a7c50d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663745311572,
+          "stop" : 1663745332672,
+          "duration" : 21100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "历史记录搜索",
+        "uid" : "583edbe45f6e7fca",
+        "parentUid" : "1ab8e448480371fe5b17fb3b9a7c50d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663745344543,
+          "stop" : 1663745371114,
+          "duration" : 26571
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除历史记录",
+        "uid" : "4a23338d5e9b1bb5",
+        "parentUid" : "1ab8e448480371fe5b17fb3b9a7c50d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663745382908,
+          "stop" : 1663745410170,
+          "duration" : 27262
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "长按删除历史记录",
+        "uid" : "8b41a966861d0fb3",
+        "parentUid" : "1ab8e448480371fe5b17fb3b9a7c50d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663745422076,
+          "stop" : 1663745448923,
+          "duration" : 26847
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1ab8e448480371fe5b17fb3b9a7c50d7"
+    }, {
+      "name" : "厂商搜索",
+      "children" : [ {
+        "name" : "厂商搜索",
+        "uid" : "d042fdfd7c92af6a",
+        "parentUid" : "a997f307f62b27ef01f93a3cb57e487a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663745460836,
+          "stop" : 1663745477136,
+          "duration" : 16300
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "推荐厂商",
+        "uid" : "6a30db9379db251d",
+        "parentUid" : "a997f307f62b27ef01f93a3cb57e487a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663745488231,
+          "stop" : 1663745502994,
+          "duration" : 14763
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a997f307f62b27ef01f93a3cb57e487a"
+    } ],
+    "uid" : "67ffb72349bc5f4ab6ae3166ce169caa"
+  }, {
+    "name" : "查询厂商",
+    "children" : [ {
+      "name" : "查询厂商",
+      "children" : [ {
+        "name" : "点击返回",
+        "uid" : "483f976001e9630c",
+        "parentUid" : "5091168b10fd8bf0ebe825521bb22edb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663746960081,
+          "stop" : 1663746972769,
+          "duration" : 12688
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Logo查询",
+        "uid" : "4da13f7a62f7a1e8",
+        "parentUid" : "5091168b10fd8bf0ebe825521bb22edb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663747111298,
+          "stop" : 1663747134917,
+          "duration" : 23619
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "厂商名称查询",
+        "uid" : "1c5dd5e36d0b37d7",
+        "parentUid" : "5091168b10fd8bf0ebe825521bb22edb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663747146855,
+          "stop" : 1663747166551,
+          "duration" : 19696
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "厂商名称查询",
+        "uid" : "c32a0e9c01b37ac4",
+        "parentUid" : "5091168b10fd8bf0ebe825521bb22edb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663747178447,
+          "stop" : 1663747199288,
+          "duration" : 20841
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "历史查询",
+        "uid" : "2dae9bd9ebe5fd1a",
+        "parentUid" : "5091168b10fd8bf0ebe825521bb22edb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663747271723,
+          "stop" : 1663747296949,
+          "duration" : 25226
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "是否删除历史查询",
+        "uid" : "c4bbbbe5cdb31c11",
+        "parentUid" : "5091168b10fd8bf0ebe825521bb22edb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663747309009,
+          "stop" : 1663747334120,
+          "duration" : 25111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "多次查询",
+        "uid" : "5636e18ac17788c3",
+        "parentUid" : "5091168b10fd8bf0ebe825521bb22edb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663747345987,
+          "stop" : 1663747417229,
+          "duration" : 71242
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5091168b10fd8bf0ebe825521bb22edb"
+    } ],
+    "uid" : "3558d886171f151e0a0f607ae2e814a3"
+  }, {
+    "name" : "玩具圈",
+    "children" : [ {
+      "name" : "发布玩具圈",
+      "uid" : "b81a39750b2f9005",
+      "parentUid" : "4592dcdeb6c34ee83a7fd6a4731f0b72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747429380,
+        "stop" : 1663747456902,
+        "duration" : 27522
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "发布玩具圈图片",
+      "uid" : "652a62fdc8c093c9",
+      "parentUid" : "4592dcdeb6c34ee83a7fd6a4731f0b72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747467887,
+        "stop" : 1663747503492,
+        "duration" : 35605
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "查看玩具圈或资讯类型",
+      "uid" : "f97e83eea79a06d5",
+      "parentUid" : "4592dcdeb6c34ee83a7fd6a4731f0b72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747514716,
+        "stop" : 1663747530023,
+        "duration" : 15307
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4592dcdeb6c34ee83a7fd6a4731f0b72"
+  }, {
+    "name" : "玩具圈收藏模块",
+    "children" : [ {
+      "name" : "玩具圈收藏",
+      "children" : [ {
+        "name" : "玩具圈收藏返回",
+        "uid" : "677a1084268d353e",
+        "parentUid" : "e9a6c6f8904a38c3a913064a5a021207",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663747541276,
+          "stop" : 1663747556906,
+          "duration" : 15630
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "玩具圈收藏删除",
+        "uid" : "c48922d3afd91e5c",
+        "parentUid" : "e9a6c6f8904a38c3a913064a5a021207",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663747568080,
+          "stop" : 1663747582981,
+          "duration" : 14901
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e9a6c6f8904a38c3a913064a5a021207"
+    } ],
+    "uid" : "a5d21ff2e4cb7f1927a93bed76073999"
+  }, {
+    "name" : "查看广告",
+    "children" : [ {
+      "name" : "查看公司首页广告",
+      "children" : [ {
+        "name" : "查看公司首页广告轮播图",
+        "uid" : "87ad3999c30e0555",
+        "parentUid" : "be18bd10d1c86f811c46313f5340c289",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663747594098,
+          "stop" : 1663747606512,
+          "duration" : 12414
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "be18bd10d1c86f811c46313f5340c289"
+    }, {
+      "name" : "查看广告",
+      "children" : [ {
+        "name" : "查看公司首页大展厅广告轮播图",
+        "uid" : "2e144ac868d52996",
+        "parentUid" : "317b5084d6d81c5c8dfab316d8794024",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663747618741,
+          "stop" : 1663747635726,
+          "duration" : 16985
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "查看公司首页小展厅广告轮播图",
+        "uid" : "eae23db9bc8e7dbc",
+        "parentUid" : "317b5084d6d81c5c8dfab316d8794024",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663747708434,
+          "stop" : 1663747724151,
+          "duration" : 15717
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "查看公司首页横幅广告轮播图",
+        "uid" : "d443af07f060502e",
+        "parentUid" : "317b5084d6d81c5c8dfab316d8794024",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663747735639,
+          "stop" : 1663747757410,
+          "duration" : 21771
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "317b5084d6d81c5c8dfab316d8794024"
+    } ],
+    "uid" : "8ee0c72dc434c7db0ee2a3b40a2156b8"
+  }, {
+    "name" : "登录模块",
+    "children" : [ {
+      "name" : "手机登录",
+      "children" : [ {
+        "name" : "点击同意",
+        "uid" : "e65f6720554e50ca",
+        "parentUid" : "b6df39f0a9d296b7a151289b7bad3fd3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663747768633,
+          "stop" : 1663747769683,
+          "duration" : 1050
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击不同意",
+        "uid" : "99f1812d80c17684",
+        "parentUid" : "b6df39f0a9d296b7a151289b7bad3fd3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663747780862,
+          "stop" : 1663747781875,
+          "duration" : 1013
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "退出应用",
+        "uid" : "c6ded69b11b37a3a",
+        "parentUid" : "b6df39f0a9d296b7a151289b7bad3fd3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663747792567,
+          "stop" : 1663747794358,
+          "duration" : 1791
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录应用",
+        "uid" : "974eba0f72cd3cb3",
+        "parentUid" : "b6df39f0a9d296b7a151289b7bad3fd3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663747805082,
+          "stop" : 1663747812067,
+          "duration" : 6985
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "验证码登录",
+        "uid" : "790f5cc86442d0d7",
+        "parentUid" : "b6df39f0a9d296b7a151289b7bad3fd3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663747822987,
+          "stop" : 1663747834735,
+          "duration" : 11748
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b6df39f0a9d296b7a151289b7bad3fd3"
+    }, {
+      "name" : "角色选择",
+      "children" : [ {
+        "name" : "选择展厅角色",
+        "uid" : "cd293d355b33b708",
+        "parentUid" : "037b6811352f15de840e99db1ab4a2ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663748526706,
+          "stop" : 1663748535696,
+          "duration" : 8990
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "选择公司角色",
+        "uid" : "b36d20ad4e3a42ef",
+        "parentUid" : "037b6811352f15de840e99db1ab4a2ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663748546907,
+          "stop" : 1663748556076,
+          "duration" : 9169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "选择厂商角色",
+        "uid" : "e10944684523f2af",
+        "parentUid" : "037b6811352f15de840e99db1ab4a2ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663748567323,
+          "stop" : 1663748576476,
+          "duration" : 9153
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "随机选择角色",
+        "uid" : "cbf5e6e28e3de65a",
+        "parentUid" : "037b6811352f15de840e99db1ab4a2ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663748587674,
+          "stop" : 1663748607504,
+          "duration" : 19830
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "037b6811352f15de840e99db1ab4a2ae"
+    }, {
+      "name" : "游客登录",
+      "children" : [ {
+        "name" : "公司游客登录",
+        "uid" : "f56392648ba647b5",
+        "parentUid" : "125d64ce8d9ab2a2ea495291131b8f69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663749703483,
+          "stop" : 1663749713429,
+          "duration" : 9946
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "厂商游客登录",
+        "uid" : "ecebcc37205e916c",
+        "parentUid" : "125d64ce8d9ab2a2ea495291131b8f69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663749725265,
+          "stop" : 1663749735409,
+          "duration" : 10144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "公司游客登录",
+        "uid" : "81b6787e2167f514",
+        "parentUid" : "125d64ce8d9ab2a2ea495291131b8f69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663749748942,
+          "stop" : 1663749759057,
+          "duration" : 10115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "厂商游客登录",
+        "uid" : "eae24a83396bae07",
+        "parentUid" : "125d64ce8d9ab2a2ea495291131b8f69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663749770348,
+          "stop" : 1663749780368,
+          "duration" : 10020
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "125d64ce8d9ab2a2ea495291131b8f69"
+    }, {
+      "name" : "游客注册",
+      "children" : [ {
+        "name" : "公司游客点击跳过",
+        "uid" : "3be8576b0f15ede5",
+        "parentUid" : "b966d24369755b61297ba9c5aefa4258",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663749792409,
+          "stop" : 1663749808613,
+          "duration" : 16204
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "厂商游客点击跳过",
+        "uid" : "d20ca5621ce0fbb0",
+        "parentUid" : "b966d24369755b61297ba9c5aefa4258",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663749819773,
+          "stop" : 1663749835956,
+          "duration" : 16183
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "公司游客注册",
+        "uid" : "de795324bfad8d70",
+        "parentUid" : "b966d24369755b61297ba9c5aefa4258",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663749988103,
+          "stop" : 1663750042527,
+          "duration" : 54424
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "厂商游客注册",
+        "uid" : "62c42e915bb9497b",
+        "parentUid" : "b966d24369755b61297ba9c5aefa4258",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663750201144,
+          "stop" : 1663750255770,
+          "duration" : 54626
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "公司游客功能点击",
+        "uid" : "9b092e2d251acd41",
+        "parentUid" : "b966d24369755b61297ba9c5aefa4258",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663750454324,
+          "stop" : 1663750627229,
+          "duration" : 172905
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b966d24369755b61297ba9c5aefa4258"
+    } ],
+    "uid" : "6958045a481574bf02bb11ef07a7047b"
+  }, {
+    "name" : "通讯录",
+    "children" : [ {
+      "name" : "添加好友",
+      "uid" : "eef597ac54aab316",
+      "parentUid" : "f85b64076141a3f686731b6403c6fbf9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747846611,
+        "stop" : 1663747874941,
+        "duration" : 28330
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "发起群聊",
+      "uid" : "842d4950a0c267c2",
+      "parentUid" : "f85b64076141a3f686731b6403c6fbf9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747887144,
+        "stop" : 1663747921720,
+        "duration" : 34576
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "处理好友请求",
+      "uid" : "681402321f47b020",
+      "parentUid" : "f85b64076141a3f686731b6403c6fbf9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747932840,
+        "stop" : 1663747974619,
+        "duration" : 41779
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f85b64076141a3f686731b6403c6fbf9"
+  }, {
+    "name" : "个人信息模块",
+    "children" : [ {
+      "name" : "修改个人信息",
+      "children" : [ {
+        "name" : "点击返回",
+        "uid" : "75eceb3cddc8e598",
+        "parentUid" : "af3a861e095b141835016fe7d7393dd4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663747986956,
+          "stop" : 1663748004411,
+          "duration" : 17455
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改头像",
+        "uid" : "7c1308a523f9d2c8",
+        "parentUid" : "af3a861e095b141835016fe7d7393dd4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663748015394,
+          "stop" : 1663748044386,
+          "duration" : 28992
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改姓名",
+        "uid" : "9634cb14f0c4cb94",
+        "parentUid" : "af3a861e095b141835016fe7d7393dd4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663748055531,
+          "stop" : 1663748072612,
+          "duration" : 17081
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改性别",
+        "uid" : "d144d532f4236752",
+        "parentUid" : "af3a861e095b141835016fe7d7393dd4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663748083618,
+          "stop" : 1663748100603,
+          "duration" : 16985
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改生日",
+        "uid" : "a835f0ca333568f",
+        "parentUid" : "af3a861e095b141835016fe7d7393dd4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663748233153,
+          "stop" : 1663748280210,
+          "duration" : 47057
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改个人信息",
+        "uid" : "d5a3ccf9c15a28a2",
+        "parentUid" : "af3a861e095b141835016fe7d7393dd4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663748449706,
+          "stop" : 1663748515426,
+          "duration" : 65720
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "af3a861e095b141835016fe7d7393dd4"
+    } ],
+    "uid" : "306e1791e5bc7604d623d3cc00971dae"
+  }, {
+    "name" : "设置模块",
+    "children" : [ {
+      "name" : "设置页面",
+      "children" : [ {
+        "name" : "点击返回",
+        "uid" : "74ba103548cde0be",
+        "parentUid" : "7c0c314d77f43014631d606a9cdf1f41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663748619066,
+          "stop" : 1663748633702,
+          "duration" : 14636
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "个人信息",
+        "uid" : "aa72b4332efa54",
+        "parentUid" : "7c0c314d77f43014631d606a9cdf1f41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663748808718,
+          "stop" : 1663748848133,
+          "duration" : 39415
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "清除缓存",
+        "uid" : "7f7c287b25631e48",
+        "parentUid" : "7c0c314d77f43014631d606a9cdf1f41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663748859488,
+          "stop" : 1663748874804,
+          "duration" : 15316
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "通用设置",
+        "uid" : "2cdbabbab862ce10",
+        "parentUid" : "7c0c314d77f43014631d606a9cdf1f41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663748886299,
+          "stop" : 1663748900800,
+          "duration" : 14501
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "关于小竹熊云科技",
+        "uid" : "a712fabf12eb0fba",
+        "parentUid" : "7c0c314d77f43014631d606a9cdf1f41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663748914196,
+          "stop" : 1663748933581,
+          "duration" : 19385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "更新历史",
+        "uid" : "f51118da11a82f8e",
+        "parentUid" : "7c0c314d77f43014631d606a9cdf1f41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663748945764,
+          "stop" : 1663748960952,
+          "duration" : 15188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "联系我们",
+        "uid" : "d626ab8c744e321a",
+        "parentUid" : "7c0c314d77f43014631d606a9cdf1f41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663748974577,
+          "stop" : 1663748989273,
+          "duration" : 14696
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "切换角色",
+        "uid" : "89d72c815838ffc4",
+        "parentUid" : "7c0c314d77f43014631d606a9cdf1f41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663749003289,
+          "stop" : 1663749020173,
+          "duration" : 16884
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "退出登录",
+        "uid" : "e6fa8a21def90eab",
+        "parentUid" : "7c0c314d77f43014631d606a9cdf1f41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663749031975,
+          "stop" : 1663749047742,
+          "duration" : 15767
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用户服务协议",
+        "uid" : "c60fb79f922b3649",
+        "parentUid" : "7c0c314d77f43014631d606a9cdf1f41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663749059879,
+          "stop" : 1663749077219,
+          "duration" : 17340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "隐私政策",
+        "uid" : "783e22ddb1721aa5",
+        "parentUid" : "7c0c314d77f43014631d606a9cdf1f41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663749089384,
+          "stop" : 1663749107168,
+          "duration" : 17784
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7c0c314d77f43014631d606a9cdf1f41"
+    } ],
+    "uid" : "61f5511a9f32f04c77d0cfb5b9fd2def"
+  }, {
+    "name" : "店铺模块",
+    "children" : [ {
+      "name" : "店铺页面",
+      "children" : [ {
+        "name" : "点击返回",
+        "uid" : "abb317a4bb34cce0",
+        "parentUid" : "e5d016a19390628b16d9c652895a2f75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663749118514,
+          "stop" : 1663749136079,
+          "duration" : 17565
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品查询",
+        "uid" : "2be961361d9c195",
+        "parentUid" : "e5d016a19390628b16d9c652895a2f75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663749147185,
+          "stop" : 1663749180664,
+          "duration" : 33479
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查看logo",
+        "uid" : "d99b2148125d4842",
+        "parentUid" : "e5d016a19390628b16d9c652895a2f75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663749192854,
+          "stop" : 1663749216220,
+          "duration" : 23366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "复制手机号",
+        "uid" : "522414bab48b8e87",
+        "parentUid" : "e5d016a19390628b16d9c652895a2f75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663749228205,
+          "stop" : 1663749262675,
+          "duration" : 34470
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "定位地址",
+        "uid" : "2518e7771be5b9e7",
+        "parentUid" : "e5d016a19390628b16d9c652895a2f75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663749273864,
+          "stop" : 1663749318676,
+          "duration" : 44812
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "所有产品加购",
+        "uid" : "fce712528f05b25c",
+        "parentUid" : "e5d016a19390628b16d9c652895a2f75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663749330492,
+          "stop" : 1663749363443,
+          "duration" : 32951
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "推荐产品加购",
+        "uid" : "eb65ddfa90791618",
+        "parentUid" : "e5d016a19390628b16d9c652895a2f75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663749379378,
+          "stop" : 1663749413650,
+          "duration" : 34272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "视频产品加购",
+        "uid" : "5b0b5b71b1cde7dd",
+        "parentUid" : "e5d016a19390628b16d9c652895a2f75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663749425442,
+          "stop" : 1663749458107,
+          "duration" : 32665
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "3D产品加购",
+        "uid" : "3ef038f82a1f572b",
+        "parentUid" : "e5d016a19390628b16d9c652895a2f75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663749471509,
+          "stop" : 1663749504382,
+          "duration" : 32873
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "最新产品加购",
+        "uid" : "7ec64015ab99a9e2",
+        "parentUid" : "e5d016a19390628b16d9c652895a2f75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663749516310,
+          "stop" : 1663749549264,
+          "duration" : 32954
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "随机产品专区加购",
+        "uid" : "c1be3d9ad7ee5d16",
+        "parentUid" : "e5d016a19390628b16d9c652895a2f75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663749561427,
+          "stop" : 1663749594715,
+          "duration" : 33288
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品收藏",
+        "uid" : "a925014ffff2f429",
+        "parentUid" : "e5d016a19390628b16d9c652895a2f75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663749606640,
+          "stop" : 1663749634252,
+          "duration" : 27612
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击排序",
+        "uid" : "f2b4eab8d9709513",
+        "parentUid" : "e5d016a19390628b16d9c652895a2f75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663749646455,
+          "stop" : 1663749692513,
+          "duration" : 46058
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e5d016a19390628b16d9c652895a2f75"
+    } ],
+    "uid" : "b2e1a6d283f56c8b1aef516e3e68e6a9"
+  }, {
+    "name" : "3D产品",
+    "children" : [ {
+      "name" : "公司首页3D产品",
+      "children" : [ {
+        "name" : "点击返回",
+        "uid" : "456bfcff7a96c765",
+        "parentUid" : "25cbbbb27d5cdc98439ea08075ebf3ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663750639106,
+          "stop" : 1663750652931,
+          "duration" : 13825
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品搜索",
+        "uid" : "9920b1d6a5af7a26",
+        "parentUid" : "25cbbbb27d5cdc98439ea08075ebf3ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663750664012,
+          "stop" : 1663750679786,
+          "duration" : 15774
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "排序操作",
+        "uid" : "9804276ecaae8cb4",
+        "parentUid" : "25cbbbb27d5cdc98439ea08075ebf3ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663750692039,
+          "stop" : 1663750754525,
+          "duration" : 62486
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品收藏",
+        "uid" : "d2a64c236b9641b8",
+        "parentUid" : "25cbbbb27d5cdc98439ea08075ebf3ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663750766512,
+          "stop" : 1663750784991,
+          "duration" : 18479
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查看产品",
+        "uid" : "3c7be5651cd5ba61",
+        "parentUid" : "25cbbbb27d5cdc98439ea08075ebf3ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663750796475,
+          "stop" : 1663750813804,
+          "duration" : 17329
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品加购",
+        "uid" : "53f7aa6f73e7973e",
+        "parentUid" : "25cbbbb27d5cdc98439ea08075ebf3ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663750825360,
+          "stop" : 1663750842538,
+          "duration" : 17178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品加购",
+        "uid" : "1e112474d480eefe",
+        "parentUid" : "25cbbbb27d5cdc98439ea08075ebf3ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663750854584,
+          "stop" : 1663750873308,
+          "duration" : 18724
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击购物车",
+        "uid" : "92a274bf9ed556",
+        "parentUid" : "25cbbbb27d5cdc98439ea08075ebf3ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663750885353,
+          "stop" : 1663750903840,
+          "duration" : 18487
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "25cbbbb27d5cdc98439ea08075ebf3ca"
+    } ],
+    "uid" : "19ef7bd70a6823c54d44fbdc2d41443d"
+  }, {
+    "name" : "公司首页",
+    "children" : [ {
+      "name" : "首页展示",
+      "children" : [ {
+        "name" : "点击头像",
+        "uid" : "e8efa589d91fe156",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663750915137,
+          "stop" : 1663750927069,
+          "duration" : 11932
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击指南",
+        "uid" : "19fe91cc19fc9eaa",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663750938522,
+          "stop" : 1663750951077,
+          "duration" : 12555
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击扫描",
+        "uid" : "9ffc24eda17d31ee",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663750963195,
+          "stop" : 1663750975262,
+          "duration" : 12067
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击相机",
+        "uid" : "a3d9a07a5951239",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663750988410,
+          "stop" : 1663751000674,
+          "duration" : 12264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击请输入关键字",
+        "uid" : "a95d4c37352f2df3",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663751012467,
+          "stop" : 1663751024361,
+          "duration" : 11894
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击搜索按钮",
+        "uid" : "5595cdbc20d89fd0",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663751035641,
+          "stop" : 1663751048218,
+          "duration" : 12577
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击首页大轮播图",
+        "uid" : "f0bbd0265fa5763d",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663751060460,
+          "stop" : 1663751072373,
+          "duration" : 11913
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击新品区",
+        "uid" : "8aba66712bc87b8f",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663751083788,
+          "stop" : 1663751096442,
+          "duration" : 12654
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击GCC产品",
+        "uid" : "8d5e9c615d446c1d",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663751108435,
+          "stop" : 1663751120529,
+          "duration" : 12094
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击3D产品",
+        "uid" : "95fc4825ce729b0a",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663751131672,
+          "stop" : 1663751143635,
+          "duration" : 11963
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击现货区",
+        "uid" : "7af543c4c140ad79",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663751155856,
+          "stop" : 1663751168355,
+          "duration" : 12499
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击视频区",
+        "uid" : "bf41f13f32e87b22",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663751180324,
+          "stop" : 1663751192506,
+          "duration" : 12182
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击产品总数",
+        "uid" : "ea55a0b7baf6f1f4",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663751204802,
+          "stop" : 1663751216856,
+          "duration" : 12054
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击厂商总数",
+        "uid" : "f0031554789b1c9f",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663751228157,
+          "stop" : 1663751240115,
+          "duration" : 11958
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击首页大展厅轮播图",
+        "uid" : "7b03ea427e68b176",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663751252313,
+          "stop" : 1663751264358,
+          "duration" : 12045
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击首页小展厅轮播图",
+        "uid" : "2acf2dc0a070f76c",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663751389852,
+          "stop" : 1663751430154,
+          "duration" : 40302
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击品牌展厅-更多",
+        "uid" : "480b27468b029d7d",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663751550360,
+          "stop" : 1663751591078,
+          "duration" : 40718
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击横幅广告",
+        "uid" : "a85af83fe88cd14c",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663751602625,
+          "stop" : 1663751615414,
+          "duration" : 12789
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击推荐产品",
+        "uid" : "77a7c5762bb6c43c",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663751735704,
+          "stop" : 1663751775793,
+          "duration" : 40089
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击语音搜索",
+        "uid" : "d817d7311f3af145",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663751787265,
+          "stop" : 1663751799162,
+          "duration" : 11897
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击置顶按钮",
+        "uid" : "737c098318f336c0",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663751810881,
+          "stop" : 1663751823602,
+          "duration" : 12721
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击找样",
+        "uid" : "ca231f65d741c6d5",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663751835184,
+          "stop" : 1663751847124,
+          "duration" : 11940
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击消息",
+        "uid" : "eab4313541d62929",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663751858180,
+          "stop" : 1663751870222,
+          "duration" : 12042
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击玩具圈",
+        "uid" : "d051c616f403351e",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663751881252,
+          "stop" : 1663751894315,
+          "duration" : 13063
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击通讯录",
+        "uid" : "c03d9b39377938b0",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663751905395,
+          "stop" : 1663751917458,
+          "duration" : 12063
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击工作台",
+        "uid" : "6469ea22665dac18",
+        "parentUid" : "60baf006907871fc947e22130e68f97c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663751928709,
+          "stop" : 1663751941243,
+          "duration" : 12534
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "60baf006907871fc947e22130e68f97c"
+    } ],
+    "uid" : "17d3504bc0b2b67e8d1e1d2d7139b8c4"
+  }, {
+    "name" : "GCC产品",
+    "children" : [ {
+      "name" : "公司首页GCC产品",
+      "children" : [ {
+        "name" : "点击返回",
+        "uid" : "9046b04a5541f213",
+        "parentUid" : "9f4ebaeadccca2455fcb90613e9c45b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663751952221,
+          "stop" : 1663751965805,
+          "duration" : 13584
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品搜索",
+        "uid" : "cb4fe3c524b88d74",
+        "parentUid" : "9f4ebaeadccca2455fcb90613e9c45b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663751976791,
+          "stop" : 1663751991755,
+          "duration" : 14964
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "排序操作",
+        "uid" : "16ad98b2756141c2",
+        "parentUid" : "9f4ebaeadccca2455fcb90613e9c45b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663752003792,
+          "stop" : 1663752067367,
+          "duration" : 63575
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品收藏",
+        "uid" : "f7877638f60b0c0",
+        "parentUid" : "9f4ebaeadccca2455fcb90613e9c45b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663752079343,
+          "stop" : 1663752097638,
+          "duration" : 18295
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查看产品",
+        "uid" : "9e09db553d1cf5c",
+        "parentUid" : "9f4ebaeadccca2455fcb90613e9c45b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663752109777,
+          "stop" : 1663752127222,
+          "duration" : 17445
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品加购",
+        "uid" : "7ee782786a3b861b",
+        "parentUid" : "9f4ebaeadccca2455fcb90613e9c45b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663752138938,
+          "stop" : 1663752156706,
+          "duration" : 17768
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品加购",
+        "uid" : "c4e5ad19d6d4981e",
+        "parentUid" : "9f4ebaeadccca2455fcb90613e9c45b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663752167951,
+          "stop" : 1663752186586,
+          "duration" : 18635
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击购物车",
+        "uid" : "9c1857e34e073edd",
+        "parentUid" : "9f4ebaeadccca2455fcb90613e9c45b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663752198531,
+          "stop" : 1663752215757,
+          "duration" : 17226
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9f4ebaeadccca2455fcb90613e9c45b3"
+    } ],
+    "uid" : "709585b4e6a28b5f3577ce878598f546"
+  }, {
+    "name" : "找样报价",
+    "children" : [ {
+      "name" : "生成报价",
+      "children" : [ {
+        "name" : "点击返回",
+        "uid" : "2ff7455f1d8b42bb",
+        "parentUid" : "d98b8c3bc08c19983b7eb9cb8bcd0b2b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663752227736,
+          "stop" : 1663752248690,
+          "duration" : 20954
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "切换业务员",
+        "uid" : "c5895f4b745887f8",
+        "parentUid" : "d98b8c3bc08c19983b7eb9cb8bcd0b2b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663752404010,
+          "stop" : 1663752454725,
+          "duration" : 50715
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d98b8c3bc08c19983b7eb9cb8bcd0b2b"
+    } ],
+    "uid" : "b2ec18685036de202992bfdce31a19f4"
+  }, {
+    "name" : "新品区",
+    "children" : [ {
+      "name" : "公司首页新品区",
+      "children" : [ {
+        "name" : "点击返回",
+        "uid" : "37a9aab9513093b2",
+        "parentUid" : "9a7348f7620961abfbd3b5d0636d33f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663752520801,
+          "stop" : 1663752534427,
+          "duration" : 13626
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击最新产品",
+        "uid" : "ff82ddfe0d0df06b",
+        "parentUid" : "9a7348f7620961abfbd3b5d0636d33f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663752545696,
+          "stop" : 1663752559091,
+          "duration" : 13395
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击24小时新品",
+        "uid" : "740ce2754e9b9b21",
+        "parentUid" : "9a7348f7620961abfbd3b5d0636d33f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663752570203,
+          "stop" : 1663752583636,
+          "duration" : 13433
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品查询",
+        "uid" : "21091a359bad532b",
+        "parentUid" : "9a7348f7620961abfbd3b5d0636d33f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663752595790,
+          "stop" : 1663752613492,
+          "duration" : 17702
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "排序操作",
+        "uid" : "95d4311bd12f37a5",
+        "parentUid" : "9a7348f7620961abfbd3b5d0636d33f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663752624692,
+          "stop" : 1663752688153,
+          "duration" : 63461
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品收藏",
+        "uid" : "31b05bccd943479f",
+        "parentUid" : "9a7348f7620961abfbd3b5d0636d33f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663752700136,
+          "stop" : 1663752717196,
+          "duration" : 17060
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查看产品",
+        "uid" : "3ec46be13ce0a76f",
+        "parentUid" : "9a7348f7620961abfbd3b5d0636d33f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663752729249,
+          "stop" : 1663752745333,
+          "duration" : 16084
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品加购",
+        "uid" : "dd0704fe6a6ca91c",
+        "parentUid" : "9a7348f7620961abfbd3b5d0636d33f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663752756581,
+          "stop" : 1663752772518,
+          "duration" : 15937
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品加购",
+        "uid" : "cc19ff10ec12bafb",
+        "parentUid" : "9a7348f7620961abfbd3b5d0636d33f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663752783594,
+          "stop" : 1663752800612,
+          "duration" : 17018
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击购物车",
+        "uid" : "62b1a0b85673ef38",
+        "parentUid" : "9a7348f7620961abfbd3b5d0636d33f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663752865233,
+          "stop" : 1663752880823,
+          "duration" : 15590
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9a7348f7620961abfbd3b5d0636d33f1"
+    } ],
+    "uid" : "84b84a3b287cd8bf70378a7c8273e28b"
+  }, {
+    "name" : "操作指南",
+    "children" : [ {
+      "name" : "操作指南",
+      "children" : [ {
+        "name" : "点击返回",
+        "uid" : "85f5d54cbe3da98c",
+        "parentUid" : "2c3590e65ad9f11e668b68884b9c16cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663752892894,
+          "stop" : 1663752908192,
+          "duration" : 15298
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击返回",
+        "uid" : "15ba693ffb448eed",
+        "parentUid" : "2c3590e65ad9f11e668b68884b9c16cb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663753052806,
+          "stop" : 1663753093089,
+          "duration" : 40283
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2c3590e65ad9f11e668b68884b9c16cb"
+    } ],
+    "uid" : "e047cab700b35ac70193ceaf9cba808a"
+  }, {
+    "name" : "展厅主页",
+    "children" : [ {
+      "name" : "展厅主页",
+      "children" : [ {
+        "name" : "点击返回",
+        "uid" : "df6a570533632f30",
+        "parentUid" : "1576a16e57ac73e282c016d68192e761",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663753211762,
+          "stop" : 1663753251285,
+          "duration" : 39523
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查看更多",
+        "uid" : "964def51d29dd967",
+        "parentUid" : "1576a16e57ac73e282c016d68192e761",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663753370058,
+          "stop" : 1663753412133,
+          "duration" : 42075
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "扫码搜索",
+        "uid" : "ce7859298e08764f",
+        "parentUid" : "1576a16e57ac73e282c016d68192e761",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663753537142,
+          "stop" : 1663753579475,
+          "duration" : 42333
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "关键词搜索",
+        "uid" : "65ae1f7c825a554d",
+        "parentUid" : "1576a16e57ac73e282c016d68192e761",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663753721574,
+          "stop" : 1663753765854,
+          "duration" : 44280
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "选择入驻厂家",
+        "uid" : "e315bdc8893047b1",
+        "parentUid" : "1576a16e57ac73e282c016d68192e761",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663753899538,
+          "stop" : 1663753944968,
+          "duration" : 45430
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "入驻厂家查询",
+        "uid" : "97b6840bfe7b50e1",
+        "parentUid" : "1576a16e57ac73e282c016d68192e761",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663754081407,
+          "stop" : 1663754127677,
+          "duration" : 46270
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "选择展厅类目",
+        "uid" : "628919c5b07a1a77",
+        "parentUid" : "1576a16e57ac73e282c016d68192e761",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663754259993,
+          "stop" : 1663754305557,
+          "duration" : 45564
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "展厅类目-产品查询",
+        "uid" : "af4b19404eb40de3",
+        "parentUid" : "1576a16e57ac73e282c016d68192e761",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663754441627,
+          "stop" : 1663754488615,
+          "duration" : 46988
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1576a16e57ac73e282c016d68192e761"
+    } ],
+    "uid" : "799fe2eb69bea3c2b9701ab5030d71c9"
+  }, {
+    "name" : "现货区",
+    "children" : [ {
+      "name" : "公司首页现货区",
+      "children" : [ {
+        "name" : "点击返回",
+        "uid" : "deaf11d5c112ca98",
+        "parentUid" : "eebc089c445f8b494ede19f0894b5fd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663754501024,
+          "stop" : 1663754514585,
+          "duration" : 13561
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品搜索",
+        "uid" : "a2a02eedaf60b38d",
+        "parentUid" : "eebc089c445f8b494ede19f0894b5fd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663754525833,
+          "stop" : 1663754542929,
+          "duration" : 17096
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "排序操作",
+        "uid" : "a18a4d3dbc2b2dc9",
+        "parentUid" : "eebc089c445f8b494ede19f0894b5fd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663754554017,
+          "stop" : 1663754616162,
+          "duration" : 62145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品收藏",
+        "uid" : "25a3e0ef1aebe702",
+        "parentUid" : "eebc089c445f8b494ede19f0894b5fd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663754628214,
+          "stop" : 1663754646330,
+          "duration" : 18116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查看产品",
+        "uid" : "3984be0517b92b54",
+        "parentUid" : "eebc089c445f8b494ede19f0894b5fd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663754657602,
+          "stop" : 1663754674891,
+          "duration" : 17289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品加购",
+        "uid" : "b0786211e777f270",
+        "parentUid" : "eebc089c445f8b494ede19f0894b5fd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663754687695,
+          "stop" : 1663754704939,
+          "duration" : 17244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品加购",
+        "uid" : "e9bb0a917bb83178",
+        "parentUid" : "eebc089c445f8b494ede19f0894b5fd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663754717153,
+          "stop" : 1663754735751,
+          "duration" : 18598
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击购物车",
+        "uid" : "ed116f56a01619bf",
+        "parentUid" : "eebc089c445f8b494ede19f0894b5fd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663754746767,
+          "stop" : 1663754764616,
+          "duration" : 17849
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eebc089c445f8b494ede19f0894b5fd9"
+    } ],
+    "uid" : "bc89068107caf4113dc328c3286c8e13"
+  }, {
+    "name" : "视频区",
+    "children" : [ {
+      "name" : "公司首页视频区",
+      "children" : [ {
+        "name" : "点击返回",
+        "uid" : "9c9ea30673a22041",
+        "parentUid" : "03d5172978b23a15e580691bf34f8a85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663754776617,
+          "stop" : 1663754790140,
+          "duration" : 13523
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品搜索",
+        "uid" : "5006d3ad2de7a7ee",
+        "parentUid" : "03d5172978b23a15e580691bf34f8a85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663754801248,
+          "stop" : 1663754817304,
+          "duration" : 16056
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "排序操作",
+        "uid" : "55cc991062039dd",
+        "parentUid" : "03d5172978b23a15e580691bf34f8a85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663754828640,
+          "stop" : 1663754891056,
+          "duration" : 62416
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品收藏",
+        "uid" : "42f3565caf62ddae",
+        "parentUid" : "03d5172978b23a15e580691bf34f8a85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663754902119,
+          "stop" : 1663754921055,
+          "duration" : 18936
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查看产品",
+        "uid" : "b651e1ce823b65f3",
+        "parentUid" : "03d5172978b23a15e580691bf34f8a85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663754932971,
+          "stop" : 1663754950928,
+          "duration" : 17957
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品加购",
+        "uid" : "11a7751b4fdcc7ad",
+        "parentUid" : "03d5172978b23a15e580691bf34f8a85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663754963642,
+          "stop" : 1663754980944,
+          "duration" : 17302
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "产品加购",
+        "uid" : "fe412d0c20de2264",
+        "parentUid" : "03d5172978b23a15e580691bf34f8a85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663754993985,
+          "stop" : 1663755012926,
+          "duration" : 18941
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "点击购物车",
+        "uid" : "cebe4921c4ab6479",
+        "parentUid" : "03d5172978b23a15e580691bf34f8a85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663755026058,
+          "stop" : 1663755044863,
+          "duration" : 18805
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "03d5172978b23a15e580691bf34f8a85"
+    } ],
+    "uid" : "2241533dfc5a8f8b929a077ad449f7a6"
+  }, {
+    "name" : "购物车",
+    "children" : [ {
+      "name" : "购物车",
+      "children" : [ {
+        "name" : "点击返回",
+        "uid" : "f21aecad662ce9af",
+        "parentUid" : "e66af668d6a00382257486fe58b36f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663755056781,
+          "stop" : 1663755070859,
+          "duration" : 14078
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "扫码二维码",
+        "uid" : "78e18892769b20ea",
+        "parentUid" : "e66af668d6a00382257486fe58b36f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663755082968,
+          "stop" : 1663755111640,
+          "duration" : 28672
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "关键字搜索",
+        "uid" : "47ae382dcbc00907",
+        "parentUid" : "e66af668d6a00382257486fe58b36f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663755123729,
+          "stop" : 1663755144436,
+          "duration" : 20707
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "购物车排序",
+        "uid" : "349bd32dc70c53a4",
+        "parentUid" : "e66af668d6a00382257486fe58b36f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663755155639,
+          "stop" : 1663755188438,
+          "duration" : 32799
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "箱数操作",
+        "uid" : "943389a50fb904d3",
+        "parentUid" : "e66af668d6a00382257486fe58b36f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663755201874,
+          "stop" : 1663755230172,
+          "duration" : 28298
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "勾选产品",
+        "uid" : "74f25a07615d9fda",
+        "parentUid" : "e66af668d6a00382257486fe58b36f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663755241516,
+          "stop" : 1663755270164,
+          "duration" : 28648
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除产品",
+        "uid" : "978c7b7d60df8b6e",
+        "parentUid" : "e66af668d6a00382257486fe58b36f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663755282733,
+          "stop" : 1663755302832,
+          "duration" : 20099
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "生成报价",
+        "uid" : "e964f5d7a1a9df07",
+        "parentUid" : "e66af668d6a00382257486fe58b36f13",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663755432280,
+          "stop" : 1663755475396,
+          "duration" : 43116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e66af668d6a00382257486fe58b36f13"
+    } ],
+    "uid" : "fd6d25784051c66cfc790b8ab183cbee"
+  }, {
+    "name" : "test_get_verification_code",
+    "uid" : "3cfe39ceda37d5f4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1663837546224,
+      "stop" : 1663837546224,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 21,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login",
+    "uid" : "3fdfc0e6b165c671",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1663837547387,
+      "stop" : 1663837547389,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 21,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_Visitor_login",
+    "uid" : "6d252fcd045b1f7c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663837547398,
+      "stop" : 1663837547466,
+      "duration" : 68
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 10,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_verification_code",
+    "uid" : "22ed68e7085118fb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1675327442166,
+      "stop" : 1675327442415,
+      "duration" : 249
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_verification_code_with_phone_number",
+    "uid" : "f20a2d9e2013f6e7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1675327443426,
+      "stop" : 1675327443426,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login",
+    "uid" : "69e549f197f0762a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1675327443428,
+      "stop" : 1675327443851,
+      "duration" : 423
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login_Universal_verification_code",
+    "uid" : "4acdbf04f1b4fefa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1675327443853,
+      "stop" : 1675327443921,
+      "duration" : 68
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_Random_Select_Role",
+    "uid" : "23092d2b837645fb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1675327443923,
+      "stop" : 1675327444169,
+      "duration" : 246
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_Company_Role_Login",
+    "uid" : "6cb80715e37c1646",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1675327445399,
+      "stop" : 1675327445406,
+      "duration" : 7
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_Hall_Role_Login",
+    "uid" : "b3887b19f9de84c2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1675327446434,
+      "stop" : 1675327446442,
+      "duration" : 8
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_Vendor_Role_Login",
+    "uid" : "d25c080e7e3597a6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1675327447466,
+      "stop" : 1675327447474,
+      "duration" : 8
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_Visitor_login",
+    "uid" : "2e7060102c60048b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1675327448501,
+      "stop" : 1675327448509,
+      "duration" : 8
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_Query_the_3D_products_in_the_exhibition_hall",
+    "uid" : "7c943329f9df3ef0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1675327449540,
+      "stop" : 1675327449560,
+      "duration" : 20
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_Query_the_3D_products_in_the_exhibition_hall_with_keywork",
+    "uid" : "3b2869cd1f21e68c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1675327450595,
+      "stop" : 1675327450603,
+      "duration" : 8
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_Sorting_3D_product_in_the_exhibition_hall",
+    "uid" : "f5d7b6d6ea26c9a8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1675327451638,
+      "stop" : 1675327451645,
+      "duration" : 7
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_Collect_3D_product_in_the_exhibition_hall",
+    "uid" : "4ff0763c3bd8d528",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1675327452682,
+      "stop" : 1675327452701,
+      "duration" : 19
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_Add_Product_Footprint",
+    "uid" : "de0ed9576ca9fd2a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1675327453738,
+      "stop" : 1675327453745,
+      "duration" : 7
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_Get_3D_product_advertising",
+    "uid" : "96dc87135f5e11f0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1675327454799,
+      "stop" : 1675327454806,
+      "duration" : 7
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_3D_product_add_advertisement_visit_record",
+    "uid" : "dbd346ae70130fcf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1675327455843,
+      "stop" : 1675327455854,
+      "duration" : 11
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_Contact_manufacturers_for_3D_products",
+    "uid" : "c4cbafa32f29c218",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1675327456892,
+      "stop" : 1675327456900,
+      "duration" : 8
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_verification_code",
+    "uid" : "4db6fa156eaf49ce",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1675327456914,
+      "stop" : 1675327457085,
+      "duration" : 171
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_get_verification_code_with_phone_number",
+    "uid" : "d58606a517b135aa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1675327458098,
+      "stop" : 1675327458098,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login",
+    "uid" : "ac086213de60fa72",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1675327459295,
+      "stop" : 1675327459483,
+      "duration" : 188
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login_Universal_verification_code",
+    "uid" : "b14cb534de454626",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1675327460506,
+      "stop" : 1675327460516,
+      "duration" : 10
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_Random_Select_Role",
+    "uid" : "4018ae94b2367f65",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1675327461542,
+      "stop" : 1675327461553,
+      "duration" : 11
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_Company_Role_Login",
+    "uid" : "805a14ca4193a03",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1675327462582,
+      "stop" : 1675327462602,
+      "duration" : 20
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_Hall_Role_Login",
+    "uid" : "26c96121f1fa876",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1675327463628,
+      "stop" : 1675327463635,
+      "duration" : 7
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_Vendor_Role_Login",
+    "uid" : "3a48e2c4b45f8ffc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1675327464661,
+      "stop" : 1675327464670,
+      "duration" : 9
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_Visitor_login",
+    "uid" : "13ca29f4ef3d37e8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1675327465693,
+      "stop" : 1675327465719,
+      "duration" : 26
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_Get_statistics_on_the_first_page_of_the_exhibition_hall",
+    "uid" : "5bc047846ff72f0d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1675327466745,
+      "stop" : 1675327466752,
+      "duration" : 7
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  } ]
+}

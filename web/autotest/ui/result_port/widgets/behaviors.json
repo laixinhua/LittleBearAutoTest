@@ -1,0 +1,114 @@
+{
+  "total" : 51,
+  "items" : [ {
+    "uid" : "6958045a481574bf02bb11ef07a7047b",
+    "name" : "登录模块",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "67ffb72349bc5f4ab6ae3166ce169caa",
+    "name" : "产品搜索",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "306e1791e5bc7604d623d3cc00971dae",
+    "name" : "个人信息模块",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "61f5511a9f32f04c77d0cfb5b9fd2def",
+    "name" : "设置模块",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "17d3504bc0b2b67e8d1e1d2d7139b8c4",
+    "name" : "公司首页",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "b2ec18685036de202992bfdce31a19f4",
+    "name" : "找样报价",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e047cab700b35ac70193ceaf9cba808a",
+    "name" : "操作指南",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "799fe2eb69bea3c2b9701ab5030d71c9",
+    "name" : "展厅主页",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "fd6d25784051c66cfc790b8ab183cbee",
+    "name" : "购物车",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "4592dcdeb6c34ee83a7fd6a4731f0b72",
+    "name" : "玩具圈",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

@@ -1,0 +1,4173 @@
+{
+  "d99837cc14ad797f532ed3ec6f2d24b0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a3d9a07a5951239",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663750988410,
+        "stop" : 1663751000674,
+        "duration" : 12264
+      }
+    } ]
+  },
+  "09ff9828c920de576ad5ce86f1eafc79" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c4cbafa32f29c218",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'token'",
+      "time" : {
+        "start" : 1675327456892,
+        "stop" : 1675327456900,
+        "duration" : 8
+      }
+    } ]
+  },
+  "b691700da524410fbf107744d61886da" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2acf2dc0a070f76c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663751389852,
+        "stop" : 1663751430154,
+        "duration" : 40302
+      }
+    } ]
+  },
+  "b3bcc241cf15f90234fcbaea77413e89" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9804276ecaae8cb4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663750692039,
+        "stop" : 1663750754525,
+        "duration" : 62486
+      }
+    } ]
+  },
+  "4d5c61f340fda73561c2697e2dd7211c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a3a956455e572aab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663837402679,
+        "stop" : 1663837419224,
+        "duration" : 16545
+      }
+    } ]
+  },
+  "848df9b9317f4e0860bb50152615a7b0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4a23338d5e9b1bb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663745382908,
+        "stop" : 1663745410170,
+        "duration" : 27262
+      }
+    } ]
+  },
+  "bbf530b084dc240b3907caba5e24fff1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a835f0ca333568f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663748233153,
+        "stop" : 1663748280210,
+        "duration" : 47057
+      }
+    } ]
+  },
+  "5e9bdc1f8ea4a7177ec271ebfc84511a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7ee782786a3b861b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663752138938,
+        "stop" : 1663752156706,
+        "duration" : 17768
+      }
+    } ]
+  },
+  "20a1f25d160875e94b985c99ad8f712e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1c5dd5e36d0b37d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747146855,
+        "stop" : 1663747166551,
+        "duration" : 19696
+      }
+    } ]
+  },
+  "873ccc7a22ffd2a3ded3c7d23704f01a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ba29dcb78833e043",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663746546263,
+        "stop" : 1663746589765,
+        "duration" : 43502
+      }
+    } ]
+  },
+  "e6bbeecf9cf8f2f94830c76042fa2a65" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b651e1ce823b65f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663754932971,
+        "stop" : 1663754950928,
+        "duration" : 17957
+      }
+    } ]
+  },
+  "ae5d6c0187a01128584199140b2a519a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e10944684523f2af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663748567323,
+        "stop" : 1663748576476,
+        "duration" : 9153
+      }
+    } ]
+  },
+  "c0efe73b0506776b7294bbdda6ffdb4e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c5e3926ae420f8e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663746601648,
+        "stop" : 1663746641237,
+        "duration" : 39589
+      }
+    } ]
+  },
+  "f31da8f7be9b79f861b93c44170325bb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "805a14ca4193a03",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'token'",
+      "time" : {
+        "start" : 1675327462582,
+        "stop" : 1675327462602,
+        "duration" : 20
+      }
+    } ]
+  },
+  "f599a3374bc65d053548cdec4da3c033" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e8e26b6e23a3b136",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663745243932,
+        "stop" : 1663745257063,
+        "duration" : 13131
+      }
+    } ]
+  },
+  "d3eb5cc6d2c9218ac597e0642615d2ea" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "349bd32dc70c53a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663755155639,
+        "stop" : 1663755188438,
+        "duration" : 32799
+      }
+    } ]
+  },
+  "25a95aa07bff9f8ad917592a970f36a0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2e7060102c60048b",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'token'",
+      "time" : {
+        "start" : 1675327448501,
+        "stop" : 1675327448509,
+        "duration" : 8
+      }
+    } ]
+  },
+  "6eb84d4f734a01fb9ecc929cba955286" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8158b0748e2abf80",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663746060328,
+        "stop" : 1663746096367,
+        "duration" : 36039
+      }
+    } ]
+  },
+  "de9e0a873f6237e0e72113a4d256e8c6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2cdbabbab862ce10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663748886299,
+        "stop" : 1663748900800,
+        "duration" : 14501
+      }
+    } ]
+  },
+  "10abdf7ab43e1db9a6abf01f20c59111" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ca231f65d741c6d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663751835184,
+        "stop" : 1663751847124,
+        "duration" : 11940
+      }
+    } ]
+  },
+  "75d20cd75ebd05cf5a0f530698cc8070" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "11a7751b4fdcc7ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663754963642,
+        "stop" : 1663754980944,
+        "duration" : 17302
+      }
+    } ]
+  },
+  "848d7e871d1735e14c59c431754263c9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8aba66712bc87b8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663751083788,
+        "stop" : 1663751096442,
+        "duration" : 12654
+      }
+    } ]
+  },
+  "bef36125fa9b025585b5e8374b5713bb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "da0db1397fffcd41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663746743488,
+        "stop" : 1663746780150,
+        "duration" : 36662
+      }
+    } ]
+  },
+  "6eb59095bb02a9e756c7fc4c2fb20b9d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fce712528f05b25c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663749330492,
+        "stop" : 1663749363443,
+        "duration" : 32951
+      }
+    } ]
+  },
+  "608a346fee37ce33ae1c6df6c56b2fbf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "89d72c815838ffc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663749003289,
+        "stop" : 1663749020173,
+        "duration" : 16884
+      }
+    } ]
+  },
+  "3bb737eb1d42d60d8fddc3e267f9fd13" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "85f5d54cbe3da98c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663752892894,
+        "stop" : 1663752908192,
+        "duration" : 15298
+      }
+    } ]
+  },
+  "294e5bc73351a780e3aedac988d7175d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eef597ac54aab316",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747846611,
+        "stop" : 1663747874941,
+        "duration" : 28330
+      }
+    } ]
+  },
+  "1e3ecb3ca3c3904137888234dd93d6bd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c4e5ad19d6d4981e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663752167951,
+        "stop" : 1663752186586,
+        "duration" : 18635
+      }
+    } ]
+  },
+  "a4e690ce0c4d5e15027a46d9b4aaef11" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f56392648ba647b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663749703483,
+        "stop" : 1663749713429,
+        "duration" : 9946
+      }
+    } ]
+  },
+  "9e40f4495537db939b8542fd465a175f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c4bbbbe5cdb31c11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747309009,
+        "stop" : 1663747334120,
+        "duration" : 25111
+      }
+    } ]
+  },
+  "0559a549d2af5ca4dbfd03de959e2771" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "47ae382dcbc00907",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663755123729,
+        "stop" : 1663755144436,
+        "duration" : 20707
+      }
+    } ]
+  },
+  "7fd94910ab366320d2f342925f5b562d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "677a1084268d353e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747541276,
+        "stop" : 1663747556906,
+        "duration" : 15630
+      }
+    } ]
+  },
+  "57d7310f0eeb5a081bafb0e5f126ac5e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8d5e9c615d446c1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663751108435,
+        "stop" : 1663751120529,
+        "duration" : 12094
+      }
+    } ]
+  },
+  "1318b9298df64a958aecf23c7cc08107" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "92a274bf9ed556",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663750885353,
+        "stop" : 1663750903840,
+        "duration" : 18487
+      }
+    } ]
+  },
+  "0718be8a18e12eb4b98df66b3e005505" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c32a0e9c01b37ac4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747178447,
+        "stop" : 1663747199288,
+        "duration" : 20841
+      }
+    } ]
+  },
+  "0cf734e508fd197d907cc8f4851a4e8f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eae23db9bc8e7dbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747708434,
+        "stop" : 1663747724151,
+        "duration" : 15717
+      }
+    } ]
+  },
+  "e9e5b0286f9a1d5d1aecd0fe6b02089b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "13ca29f4ef3d37e8",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'token'",
+      "time" : {
+        "start" : 1675327465693,
+        "stop" : 1675327465719,
+        "duration" : 26
+      }
+    } ]
+  },
+  "02d220bd7f5655fde0b343fd07c0e7af" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff82ddfe0d0df06b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663752545696,
+        "stop" : 1663752559091,
+        "duration" : 13395
+      }
+    } ]
+  },
+  "df3bd17d8dddd8301f2c6a11e63c7ec8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4acdbf04f1b4fefa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675327443853,
+        "stop" : 1675327443921,
+        "duration" : 68
+      }
+    } ]
+  },
+  "57ba7ce647d63b10829762f51f6ffc69" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "95d4311bd12f37a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663752624692,
+        "stop" : 1663752688153,
+        "duration" : 63461
+      }
+    } ]
+  },
+  "a5970a86d7c5976c9d0e6df97bf319bb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "37a9aab9513093b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663752520801,
+        "stop" : 1663752534427,
+        "duration" : 13626
+      }
+    } ]
+  },
+  "6e882a7a3ccc42ebe804d511d2ca428f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "69e549f197f0762a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675327443428,
+        "stop" : 1675327443851,
+        "duration" : 423
+      }
+    } ]
+  },
+  "9dc3522eb8d51b88c49c9dc5f4ca880d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cd293d355b33b708",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663748526706,
+        "stop" : 1663748535696,
+        "duration" : 8990
+      }
+    } ]
+  },
+  "8e5a6b08cb86f9dff2ef8740839e8ce6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a712fabf12eb0fba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663748914196,
+        "stop" : 1663748933581,
+        "duration" : 19385
+      }
+    } ]
+  },
+  "f0795134d5944eca3d67f90b9ef0cf58" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f0031554789b1c9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663751228157,
+        "stop" : 1663751240115,
+        "duration" : 11958
+      }
+    } ]
+  },
+  "82beb294841ffa567b427e0b65bad012" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8344144b9496b5c1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663746249050,
+        "stop" : 1663746305345,
+        "duration" : 56295
+      }
+    } ]
+  },
+  "f5c29b9380efae5c888803aa2eb3fbde" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7ced2c21e7f37f16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663745202388,
+        "stop" : 1663745232104,
+        "duration" : 29716
+      }
+    } ]
+  },
+  "7debf97ffd9b97c0299aace0afa1c993" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2be961361d9c195",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663749147185,
+        "stop" : 1663749180664,
+        "duration" : 33479
+      }
+    } ]
+  },
+  "12061664f6aa9991de153e4af1177155" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "83a420c111af83e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663745118704,
+        "stop" : 1663745148454,
+        "duration" : 29750
+      }
+    } ]
+  },
+  "7207878d3ee2019f052f476764b25598" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9ffc24eda17d31ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663750963195,
+        "stop" : 1663750975262,
+        "duration" : 12067
+      }
+    } ]
+  },
+  "7e88da8956274e8f503e38754bce7a06" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4db6fa156eaf49ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675327456914,
+        "stop" : 1675327457085,
+        "duration" : 171
+      }
+    } ]
+  },
+  "a1a9c71c32bfd07fb98a62ca814947ba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "87ad3999c30e0555",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747594098,
+        "stop" : 1663747606512,
+        "duration" : 12414
+      }
+    } ]
+  },
+  "a8079f1ddd1e8a09d45b12e8c7795bdd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4a86121f036eb403",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663745566022,
+        "stop" : 1663745601262,
+        "duration" : 35240
+      }
+    } ]
+  },
+  "4624af89484c39394b563ffa111016e7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eae24a83396bae07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663749770348,
+        "stop" : 1663749780368,
+        "duration" : 10020
+      }
+    } ]
+  },
+  "fe607d1841a791f551de20ee4d6ca72d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ef038f82a1f572b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663749471509,
+        "stop" : 1663749504382,
+        "duration" : 32873
+      }
+    } ]
+  },
+  "775fff12533003ea444452e4c2de8340" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7c943329f9df3ef0",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'token'",
+      "time" : {
+        "start" : 1675327449540,
+        "stop" : 1675327449560,
+        "duration" : 20
+      }
+    } ]
+  },
+  "44297dbdc45c09bb53ff22b10f72d23e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "42f3565caf62ddae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663754902119,
+        "stop" : 1663754921055,
+        "duration" : 18936
+      }
+    } ]
+  },
+  "8d49be077ff07b73e44eceabfc7d633c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c03d9b39377938b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663751905395,
+        "stop" : 1663751917458,
+        "duration" : 12063
+      }
+    } ]
+  },
+  "d287fd33c67e95cb6b5a73e5f2089b2a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f0bbd0265fa5763d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663751060460,
+        "stop" : 1663751072373,
+        "duration" : 11913
+      }
+    } ]
+  },
+  "65d82a03cbd20cec418f0c66ccfc71f6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e8efa589d91fe156",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663750915137,
+        "stop" : 1663750927069,
+        "duration" : 11932
+      }
+    } ]
+  },
+  "ca0eebbd1b33ea5754fac0abfe5b9f25" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6a30db9379db251d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663745488231,
+        "stop" : 1663745502994,
+        "duration" : 14763
+      }
+    } ]
+  },
+  "4b531669af00a9cdc40e4a235345e3b6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a18a4d3dbc2b2dc9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663754554017,
+        "stop" : 1663754616162,
+        "duration" : 62145
+      }
+    } ]
+  },
+  "9ae983b176707164b7ea9a2ff74a24bf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "78e18892769b20ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663755082968,
+        "stop" : 1663755111640,
+        "duration" : 28672
+      }
+    } ]
+  },
+  "022e1d7e8ebc4441819fa29c416e96b8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "16ad98b2756141c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663752003792,
+        "stop" : 1663752067367,
+        "duration" : 63575
+      }
+    } ]
+  },
+  "0284b800e148dc62d81700b313585587" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3a48e2c4b45f8ffc",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'token'",
+      "time" : {
+        "start" : 1675327464661,
+        "stop" : 1675327464670,
+        "duration" : 9
+      }
+    } ]
+  },
+  "b6acca9df2aa9117e117c5a0c9543c7c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f20a2d9e2013f6e7",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code_with_phone_number>>)",
+      "time" : {
+        "start" : 1675327443426,
+        "stop" : 1675327443426,
+        "duration" : 0
+      }
+    } ]
+  },
+  "beef74122aa6c4607ed7d7c71055d473" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a2a02eedaf60b38d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663754525833,
+        "stop" : 1663754542929,
+        "duration" : 17096
+      }
+    } ]
+  },
+  "4f760b1756bb078118249342dc1540a0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2e144ac868d52996",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747618741,
+        "stop" : 1663747635726,
+        "duration" : 16985
+      }
+    } ]
+  },
+  "a1139cbd6d416f603a064935e8ea60e4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d979e0ed08122fce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663745515001,
+        "stop" : 1663745554912,
+        "duration" : 39911
+      }
+    } ]
+  },
+  "ee6c716297d45ff557d67114a1d44356" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "deaf11d5c112ca98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663754501024,
+        "stop" : 1663754514585,
+        "duration" : 13561
+      }
+    } ]
+  },
+  "c58b452e4bec8cc8211bb101b13d0e94" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d99b2148125d4842",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663749192854,
+        "stop" : 1663749216220,
+        "duration" : 23366
+      }
+    } ]
+  },
+  "32ad2fc827b86e7aa23e1ee371d291fb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ccd5ba5bcdfa03ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663745659279,
+        "stop" : 1663745691546,
+        "duration" : 32267
+      }
+    } ]
+  },
+  "06f1134fab7e8d68d12752cb5a8bd05c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "62b1a0b85673ef38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663752865233,
+        "stop" : 1663752880823,
+        "duration" : 15590
+      }
+    } ]
+  },
+  "764becc9ad3b1489c6fb5adbe9bb5335" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3fdfc0e6b165c671",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'verificationCode'",
+      "time" : {
+        "start" : 1663837547387,
+        "stop" : 1663837547389,
+        "duration" : 2
+      }
+    } ]
+  },
+  "354c29461ebf51d7005d57c9507c4fda" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3cfe39ceda37d5f4",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code>>)",
+      "time" : {
+        "start" : 1663837546224,
+        "stop" : 1663837546224,
+        "duration" : 0
+      }
+    } ]
+  },
+  "6c34be00fd16135736e613b1f3bd3e75" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "65ae1f7c825a554d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663753721574,
+        "stop" : 1663753765854,
+        "duration" : 44280
+      }
+    } ]
+  },
+  "17116fb48907c6ec5e91601f57eaedf6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d042fdfd7c92af6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663745460836,
+        "stop" : 1663745477136,
+        "duration" : 16300
+      }
+    } ]
+  },
+  "408e684f0cc81816eea1060df42818b7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d144d532f4236752",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663748083618,
+        "stop" : 1663748100603,
+        "duration" : 16985
+      }
+    } ]
+  },
+  "57cbbba704119fc48876cdd154e96b33" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5683536c7979a150",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663746496760,
+        "stop" : 1663746533742,
+        "duration" : 36982
+      }
+    } ]
+  },
+  "e544d526013b9661d946c132818f3cf5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "456bfcff7a96c765",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663750639106,
+        "stop" : 1663750652931,
+        "duration" : 13825
+      }
+    } ]
+  },
+  "a5a0ef533196ba794d75bc7841205227" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fe412d0c20de2264",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663754993985,
+        "stop" : 1663755012926,
+        "duration" : 18941
+      }
+    } ]
+  },
+  "fe311d959a7bf32c1f9a7ca0d2ab62f3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d58606a517b135aa",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('phone_number', <FixtureRequest for <Function test_get_verification_code_with_phone_number>>)",
+      "time" : {
+        "start" : 1675327458098,
+        "stop" : 1675327458098,
+        "duration" : 0
+      }
+    } ]
+  },
+  "2cebcc065471b5856b0cad404fa6e2bb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "21091a359bad532b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663752595790,
+        "stop" : 1663752613492,
+        "duration" : 17702
+      }
+    } ]
+  },
+  "6abcc4b1291d26fdef083b5ce5aa5218" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "978c7b7d60df8b6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663755282733,
+        "stop" : 1663755302832,
+        "duration" : 20099
+      }
+    } ]
+  },
+  "57d0b802e2c213a86ebbb70acff8ae2f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9920b1d6a5af7a26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663750664012,
+        "stop" : 1663750679786,
+        "duration" : 15774
+      }
+    } ]
+  },
+  "f36b089333f528b513c0acfb0988e808" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bf41f13f32e87b22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663751180324,
+        "stop" : 1663751192506,
+        "duration" : 12182
+      }
+    } ]
+  },
+  "4b2ff1b02e84502877b631aee5a44f24" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aa72b4332efa54",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663748808718,
+        "stop" : 1663748848133,
+        "duration" : 39415
+      }
+    } ]
+  },
+  "0cbf9fb6e0d3b6aaeac441eaee70a14a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "681402321f47b020",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747932840,
+        "stop" : 1663747974619,
+        "duration" : 41779
+      }
+    } ]
+  },
+  "931fb1fcf4282eaaf3d4c7573f380815" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dd0704fe6a6ca91c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663752756581,
+        "stop" : 1663752772518,
+        "duration" : 15937
+      }
+    } ]
+  },
+  "cfd58d8bef1f20ba70b144aea44f65cc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "de0ed9576ca9fd2a",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'token'",
+      "time" : {
+        "start" : 1675327453738,
+        "stop" : 1675327453745,
+        "duration" : 7
+      }
+    } ]
+  },
+  "87c4b50fff05b72da5e7e365a282c57e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "abb317a4bb34cce0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663749118514,
+        "stop" : 1663749136079,
+        "duration" : 17565
+      }
+    } ]
+  },
+  "1619da0683c5dd74c797a30a14b5e897" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f2b4eab8d9709513",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663749646455,
+        "stop" : 1663749692513,
+        "duration" : 46058
+      }
+    } ]
+  },
+  "ae1c684b89293c68cc1102f80ec143db" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c5895f4b745887f8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663752404010,
+        "stop" : 1663752454725,
+        "duration" : 50715
+      }
+    } ]
+  },
+  "46132f761f21a7772401bc78edac4bb2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "652a62fdc8c093c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747467887,
+        "stop" : 1663747503492,
+        "duration" : 35605
+      }
+    } ]
+  },
+  "4fe9a2ddf2ecefa8b01ba5388369059e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d20ca5621ce0fbb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663749819773,
+        "stop" : 1663749835956,
+        "duration" : 16183
+      }
+    } ]
+  },
+  "2da1dc90c538240ed62ccf9deb6f6e71" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2518e7771be5b9e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663749273864,
+        "stop" : 1663749318676,
+        "duration" : 44812
+      }
+    } ]
+  },
+  "0f765fd62823018c390f83b92bbdb183" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a995f4346c193a13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663746791193,
+        "stop" : 1663746823557,
+        "duration" : 32364
+      }
+    } ]
+  },
+  "55404afe1d91ad7cc9605db29a9bdaba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "22ed68e7085118fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675327442166,
+        "stop" : 1675327442415,
+        "duration" : 249
+      }
+    } ]
+  },
+  "0237a8104671f62c9d3d2157ddc0305b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a925014ffff2f429",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663749606640,
+        "stop" : 1663749634252,
+        "duration" : 27612
+      }
+    } ]
+  },
+  "fc405622f626e3782426a6d431ecd2e4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3b2869cd1f21e68c",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'token'",
+      "time" : {
+        "start" : 1675327450595,
+        "stop" : 1675327450603,
+        "duration" : 8
+      }
+    } ]
+  },
+  "cee74e030cd54616dad254fc1cec22c5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "95fc4825ce729b0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663751131672,
+        "stop" : 1663751143635,
+        "duration" : 11963
+      }
+    } ]
+  },
+  "16f692d58bf7d256e341db1b1dec09ad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "af4b19404eb40de3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663754441627,
+        "stop" : 1663754488615,
+        "duration" : 46988
+      }
+    } ]
+  },
+  "f04f313f684510ddc4360a5092d54f99" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7f7c287b25631e48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663748859488,
+        "stop" : 1663748874804,
+        "duration" : 15316
+      }
+    } ]
+  },
+  "3d6fd693a7dabf3b16978b75266530fe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f7877638f60b0c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663752079343,
+        "stop" : 1663752097638,
+        "duration" : 18295
+      }
+    } ]
+  },
+  "0ac9f3ee4fd558d2a1e69f002e2a8eb9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4da13f7a62f7a1e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747111298,
+        "stop" : 1663747134917,
+        "duration" : 23619
+      }
+    } ]
+  },
+  "9b9235368fa199260107ca1427c0ab78" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f21aecad662ce9af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663755056781,
+        "stop" : 1663755070859,
+        "duration" : 14078
+      }
+    } ]
+  },
+  "8f7e1a306af2fbd270a53447f35f34da" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "943389a50fb904d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663755201874,
+        "stop" : 1663755230172,
+        "duration" : 28298
+      }
+    } ]
+  },
+  "6afa821547bab97288b4ad4cea350558" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e964f5d7a1a9df07",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663755432280,
+        "stop" : 1663755475396,
+        "duration" : 43116
+      }
+    } ]
+  },
+  "a0bbd80fc1733fdc945da59b7f94b6a0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c6ded69b11b37a3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747792567,
+        "stop" : 1663747794358,
+        "duration" : 1791
+      }
+    } ]
+  },
+  "ad6f4aa73eeba0c39bdf35b71ac5ef02" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d25c080e7e3597a6",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'token'",
+      "time" : {
+        "start" : 1675327447466,
+        "stop" : 1675327447474,
+        "duration" : 8
+      }
+    } ]
+  },
+  "c6a6b4630ee5f3b734c9567d7d0e032e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aa04c10c1d9327d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663745077478,
+        "stop" : 1663745106715,
+        "duration" : 29237
+      }
+    } ]
+  },
+  "e7ae42ae48ce1bf9fe614bc106e732f7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7c1308a523f9d2c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663748015394,
+        "stop" : 1663748044386,
+        "duration" : 28992
+      }
+    } ]
+  },
+  "dc9c81fddd447d64b68353beeddd4e18" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b41a966861d0fb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663745422076,
+        "stop" : 1663745448923,
+        "duration" : 26847
+      }
+    } ]
+  },
+  "067bc428789a28e1d387df51ef27a5ef" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4018ae94b2367f65",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'token'",
+      "time" : {
+        "start" : 1675327461542,
+        "stop" : 1675327461553,
+        "duration" : 11
+      }
+    } ]
+  },
+  "dd05c3614e1acd3968b3ee2501d4476f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b36d20ad4e3a42ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663748546907,
+        "stop" : 1663748556076,
+        "duration" : 9169
+      }
+    } ]
+  },
+  "1547f9c9cdef20b4920d2e4c2b60edc3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7b03ea427e68b176",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663751252313,
+        "stop" : 1663751264358,
+        "duration" : 12045
+      }
+    } ]
+  },
+  "eb3e1ea9ac84e5245bd07ec03296ea0e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e65f6720554e50ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747768633,
+        "stop" : 1663747769683,
+        "duration" : 1050
+      }
+    } ]
+  },
+  "9d1ccbad5dd14e763e8890aaa83475f0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "40978fa73aa1e96c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663745160359,
+        "stop" : 1663745190442,
+        "duration" : 30083
+      }
+    } ]
+  },
+  "5e7dc7c65904b38db07a6af27f7db5f8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4ff0763c3bd8d528",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'token'",
+      "time" : {
+        "start" : 1675327452682,
+        "stop" : 1675327452701,
+        "duration" : 19
+      }
+    } ]
+  },
+  "843ec9ed4fc611615bb9b2b8065b6687" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "974eba0f72cd3cb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747805082,
+        "stop" : 1663747812067,
+        "duration" : 6985
+      }
+    } ]
+  },
+  "a6e360dea938fdd3881b99e226fcb2b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc19ff10ec12bafb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663752783594,
+        "stop" : 1663752800612,
+        "duration" : 17018
+      }
+    } ]
+  },
+  "8d40496cc13ab1dddf098600a901da5c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3887b19f9de84c2",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'token'",
+      "time" : {
+        "start" : 1675327446434,
+        "stop" : 1675327446442,
+        "duration" : 8
+      }
+    } ]
+  },
+  "d8ec1298403db3ffdec57b5d09d45a75" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d817d7311f3af145",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663751787265,
+        "stop" : 1663751799162,
+        "duration" : 11897
+      }
+    } ]
+  },
+  "610f994d655ea9f730a2078cd78c3988" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cebe4921c4ab6479",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663755026058,
+        "stop" : 1663755044863,
+        "duration" : 18805
+      }
+    } ]
+  },
+  "8f36fc6b739d2a105d520ee5b925c401" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "24d21f75f7b62689",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663745613118,
+        "stop" : 1663745648410,
+        "duration" : 35292
+      }
+    } ]
+  },
+  "800dd5c125824079ece25bdbfdc6e768" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f5d7b6d6ea26c9a8",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'token'",
+      "time" : {
+        "start" : 1675327451638,
+        "stop" : 1675327451645,
+        "duration" : 7
+      }
+    } ]
+  },
+  "869ed9337342b8eda5b146e8a40cc90d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e315bdc8893047b1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663753899538,
+        "stop" : 1663753944968,
+        "duration" : 45430
+      }
+    } ]
+  },
+  "1cae847661066bf1512c98adccdad4ea" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c204c27ae8b75358",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663745849738,
+        "stop" : 1663745883448,
+        "duration" : 33710
+      }
+    } ]
+  },
+  "3b0ef674f2852b854a4ad4792c439c75" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "19fe91cc19fc9eaa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663750938522,
+        "stop" : 1663750951077,
+        "duration" : 12555
+      }
+    } ]
+  },
+  "1f467ad9077c322304020379d8c397c9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "97b6840bfe7b50e1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663754081407,
+        "stop" : 1663754127677,
+        "duration" : 46270
+      }
+    } ]
+  },
+  "19643fc4029f6e60483bc085aaf53621" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d5a3ccf9c15a28a2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663748449706,
+        "stop" : 1663748515426,
+        "duration" : 65720
+      }
+    } ]
+  },
+  "cf24d446e4d4a76744a8122a6d7acfbb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "36898a0e32419eb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663746318723,
+        "stop" : 1663746355492,
+        "duration" : 36769
+      }
+    } ]
+  },
+  "69413b6b73548ed984d505d66079a3ed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f97e83eea79a06d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747514716,
+        "stop" : 1663747530023,
+        "duration" : 15307
+      }
+    } ]
+  },
+  "6a8595bb58aad56097ff1dfd9d297648" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cb4fe3c524b88d74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663751976791,
+        "stop" : 1663751991755,
+        "duration" : 14964
+      }
+    } ]
+  },
+  "5b83d9219891e3a1d677966610b14420" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "522414bab48b8e87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663749228205,
+        "stop" : 1663749262675,
+        "duration" : 34470
+      }
+    } ]
+  },
+  "d87f892b15e1683d0840ed25b145043f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "628919c5b07a1a77",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663754259993,
+        "stop" : 1663754305557,
+        "duration" : 45564
+      }
+    } ]
+  },
+  "4a011258b19fda0cdc80135fa66924a1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5b0b5b71b1cde7dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663749425442,
+        "stop" : 1663749458107,
+        "duration" : 32665
+      }
+    } ]
+  },
+  "2442aab5b34e36fbd036b1cc5dcdb972" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "842d4950a0c267c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747887144,
+        "stop" : 1663747921720,
+        "duration" : 34576
+      }
+    } ]
+  },
+  "9ca93c38ceb89fb77393fd5fac3db540" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e6fa8a21def90eab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663749031975,
+        "stop" : 1663749047742,
+        "duration" : 15767
+      }
+    } ]
+  },
+  "78940b8d023d530560e64601f3e13e70" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "26c96121f1fa876",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'token'",
+      "time" : {
+        "start" : 1675327463628,
+        "stop" : 1675327463635,
+        "duration" : 7
+      }
+    } ]
+  },
+  "0124a5118b13360c62a503327c7954b7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a89507934da8ddef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663746925600,
+        "stop" : 1663746947951,
+        "duration" : 22351
+      }
+    } ]
+  },
+  "c0aa64da537b4345071abfa27c1a3325" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5006d3ad2de7a7ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663754801248,
+        "stop" : 1663754817304,
+        "duration" : 16056
+      }
+    } ]
+  },
+  "380b1d64eaa43a940453377735d40be6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ac086213de60fa72",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'token'",
+      "time" : {
+        "start" : 1675327459295,
+        "stop" : 1675327459483,
+        "duration" : 188
+      }
+    } ]
+  },
+  "c88b07305823d8a8ac5582e543ef9f09" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ea55a0b7baf6f1f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663751204802,
+        "stop" : 1663751216856,
+        "duration" : 12054
+      }
+    } ]
+  },
+  "c7c7e2b553a23a1f2bad931bf57a4078" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b0786211e777f270",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663754687695,
+        "stop" : 1663754704939,
+        "duration" : 17244
+      }
+    } ]
+  },
+  "29075d5d33f86a4b553bb4cea12491b8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "23092d2b837645fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675327443923,
+        "stop" : 1675327444169,
+        "duration" : 246
+      }
+    } ]
+  },
+  "6ea3e7d31b8d8731b570cfc7d9250ebc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "81b6787e2167f514",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663749748942,
+        "stop" : 1663749759057,
+        "duration" : 10115
+      }
+    } ]
+  },
+  "2ac0600b0d1b86521c888c80f37a7e98" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d051c616f403351e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663751881252,
+        "stop" : 1663751894315,
+        "duration" : 13063
+      }
+    } ]
+  },
+  "a68d6fda852528ab81beedf73fd4db18" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "74f25a07615d9fda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663755241516,
+        "stop" : 1663755270164,
+        "duration" : 28648
+      }
+    } ]
+  },
+  "3a0d622fd9dd3fca4d0bb9f798944c0a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eb65ddfa90791618",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663749379378,
+        "stop" : 1663749413650,
+        "duration" : 34272
+      }
+    } ]
+  },
+  "9d6572fede31aa0d1d56b6f1229bdbfc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "740ce2754e9b9b21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663752570203,
+        "stop" : 1663752583636,
+        "duration" : 13433
+      }
+    } ]
+  },
+  "20a396dd4473c16043072e6ced56d597" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2dae9bd9ebe5fd1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747271723,
+        "stop" : 1663747296949,
+        "duration" : 25226
+      }
+    } ]
+  },
+  "32742723d54992a858cff4ee06f01431" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dbd346ae70130fcf",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'token'",
+      "time" : {
+        "start" : 1675327455843,
+        "stop" : 1675327455854,
+        "duration" : 11
+      }
+    } ]
+  },
+  "352f8c704e2dc9b61ff32d6d00bad1ac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "acf0e53f096b2383",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663746652265,
+        "stop" : 1663746731664,
+        "duration" : 79399
+      }
+    } ]
+  },
+  "16575e5e0620249bdbe83ed3260f66ce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "583edbe45f6e7fca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663745344543,
+        "stop" : 1663745371114,
+        "duration" : 26571
+      }
+    } ]
+  },
+  "5096f9bdb332431818d0f402e3d1ee69" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d443af07f060502e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747735639,
+        "stop" : 1663747757410,
+        "duration" : 21771
+      }
+    } ]
+  },
+  "33f0176cca6b8fd7daa4bbd5a1c013cc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9046b04a5541f213",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663751952221,
+        "stop" : 1663751965805,
+        "duration" : 13584
+      }
+    } ]
+  },
+  "9e2c47a0d8e72c5d0e3fc828f5ca8c0b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "483f976001e9630c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663746960081,
+        "stop" : 1663746972769,
+        "duration" : 12688
+      }
+    } ]
+  },
+  "1882b1a2dbe7cbe1c923ac2d35d601fa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b14cb534de454626",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'token'",
+      "time" : {
+        "start" : 1675327460506,
+        "stop" : 1675327460516,
+        "duration" : 10
+      }
+    } ]
+  },
+  "164bd8fe97fdfba223806763f26089fb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ecebcc37205e916c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663749725265,
+        "stop" : 1663749735409,
+        "duration" : 10144
+      }
+    } ]
+  },
+  "8a45ded76030d69076e9461f5acf9993" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f51118da11a82f8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663748945764,
+        "stop" : 1663748960952,
+        "duration" : 15188
+      }
+    } ]
+  },
+  "4e787e6e0081018c0e1b1f23c87fe31d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ed116f56a01619bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663754746767,
+        "stop" : 1663754764616,
+        "duration" : 17849
+      }
+    } ]
+  },
+  "54b267dabc1f02ab2b101c6c26670e2f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3be8576b0f15ede5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663749792409,
+        "stop" : 1663749808613,
+        "duration" : 16204
+      }
+    } ]
+  },
+  "acd8a362d513f3bc995a8d889dc828f6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c26288ccf277e692",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663746836005,
+        "stop" : 1663746868768,
+        "duration" : 32763
+      }
+    } ]
+  },
+  "264f3b6611caf55656e3ce719ccf107f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "75eceb3cddc8e598",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747986956,
+        "stop" : 1663748004411,
+        "duration" : 17455
+      }
+    } ]
+  },
+  "85e97cee20467000dd7dc908d3cdc570" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c856f04f92983504",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663746880579,
+        "stop" : 1663746913605,
+        "duration" : 33026
+      }
+    } ]
+  },
+  "104f051dfb3ca474c875343878aaac3e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d2a64c236b9641b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663750766512,
+        "stop" : 1663750784991,
+        "duration" : 18479
+      }
+    } ]
+  },
+  "c0a58c0fe33cd0011d79a5cd5d7c5b93" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7ec64015ab99a9e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663749516310,
+        "stop" : 1663749549264,
+        "duration" : 32954
+      }
+    } ]
+  },
+  "60d4ee284909c671568b55d94aa73133" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9c1857e34e073edd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663752198531,
+        "stop" : 1663752215757,
+        "duration" : 17226
+      }
+    } ]
+  },
+  "eb413dc983aa1dcc2be0305bcc5a23c7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9634cb14f0c4cb94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663748055531,
+        "stop" : 1663748072612,
+        "duration" : 17081
+      }
+    } ]
+  },
+  "bbaf85ef190c7e3ea43b1a68e0079bb4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eab4313541d62929",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663751858180,
+        "stop" : 1663751870222,
+        "duration" : 12042
+      }
+    } ]
+  },
+  "b698afc4bc7d72a33150e031095249c8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "96dc87135f5e11f0",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'token'",
+      "time" : {
+        "start" : 1675327454799,
+        "stop" : 1675327454806,
+        "duration" : 7
+      }
+    } ]
+  },
+  "d8503f265c6efc1a6bf02db7279aa3d7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "55cc991062039dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663754828640,
+        "stop" : 1663754891056,
+        "duration" : 62416
+      }
+    } ]
+  },
+  "aab1108bb51510449a1b23bfed6d0204" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "25a3e0ef1aebe702",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663754628214,
+        "stop" : 1663754646330,
+        "duration" : 18116
+      }
+    } ]
+  },
+  "db3ff00dc88d2caa2bc470f4d98b05ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6cb80715e37c1646",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'token'",
+      "time" : {
+        "start" : 1675327445399,
+        "stop" : 1675327445406,
+        "duration" : 7
+      }
+    } ]
+  },
+  "d42fbbfcfb5d98a4c643e840f9fcbe65" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "790f5cc86442d0d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747822987,
+        "stop" : 1663747834735,
+        "duration" : 11748
+      }
+    } ]
+  },
+  "747d54994fe4cb2c99d953c1a2dc8674" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7af543c4c140ad79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663751155856,
+        "stop" : 1663751168355,
+        "duration" : 12499
+      }
+    } ]
+  },
+  "75b443c4be66cddb9f97befc4ca29e9c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9b092e2d251acd41",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663750454324,
+        "stop" : 1663750627229,
+        "duration" : 172905
+      }
+    } ]
+  },
+  "f5b4dbbc141405cd8d7ac5946349d4c1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "de795324bfad8d70",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663749988103,
+        "stop" : 1663750042527,
+        "duration" : 54424
+      }
+    } ]
+  },
+  "1a6e26124d87628ba5ae3bb46349842d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "31b05bccd943479f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663752700136,
+        "stop" : 1663752717196,
+        "duration" : 17060
+      }
+    } ]
+  },
+  "077fbd26fd7e204a7e0d0e95d532c797" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f196732628cf9d02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663745895717,
+        "stop" : 1663745942456,
+        "duration" : 46739
+      }
+    } ]
+  },
+  "3e2af8f2ff233848023d21a53c2eb281" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5bc047846ff72f0d",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'token'",
+      "time" : {
+        "start" : 1675327466745,
+        "stop" : 1675327466752,
+        "duration" : 7
+      }
+    } ]
+  },
+  "06a348c67f6e8c63c6c30021e3c27d1f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "90c0d7c6236c6fc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663745311572,
+        "stop" : 1663745332672,
+        "duration" : 21100
+      }
+    } ]
+  },
+  "b5919c6980ba71cb1179eb8e9197dc51" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c48922d3afd91e5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747568080,
+        "stop" : 1663747582981,
+        "duration" : 14901
+      }
+    } ]
+  },
+  "dd3fd1b1dbb0101cba73ee310cea385e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "480b27468b029d7d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663751550360,
+        "stop" : 1663751591078,
+        "duration" : 40718
+      }
+    } ]
+  },
+  "46fb1e0933c4b63696cfb47366df0c0e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c7be5651cd5ba61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663750796475,
+        "stop" : 1663750813804,
+        "duration" : 17329
+      }
+    } ]
+  },
+  "f8647ad73fe8b6705cdbaa5c87c653fd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b06eba735f4dc783",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663745704284,
+        "stop" : 1663745740832,
+        "duration" : 36548
+      }
+    } ]
+  },
+  "e247f43031f67b549b380893981462a2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "df6a570533632f30",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663753211762,
+        "stop" : 1663753251285,
+        "duration" : 39523
+      }
+    } ]
+  },
+  "b22d0967ecb1abc7d9e296dcb5b37f83" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2ff7455f1d8b42bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663752227736,
+        "stop" : 1663752248690,
+        "duration" : 20954
+      }
+    } ]
+  },
+  "539b1f4029d0938ef96d068fb0575a75" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3984be0517b92b54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663754657602,
+        "stop" : 1663754674891,
+        "duration" : 17289
+      }
+    } ]
+  },
+  "56e3592d3129b7f18eb5206a3f70283e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c60fb79f922b3649",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663749059879,
+        "stop" : 1663749077219,
+        "duration" : 17340
+      }
+    } ]
+  },
+  "7d0967c9e6c6e07997b3bcfa033fee35" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "783e22ddb1721aa5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663749089384,
+        "stop" : 1663749107168,
+        "duration" : 17784
+      }
+    } ]
+  },
+  "695d3738ea5af3ad25f824ec086326ed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "53f7aa6f73e7973e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663750825360,
+        "stop" : 1663750842538,
+        "duration" : 17178
+      }
+    } ]
+  },
+  "5db6d4451281f291985ce2fb95e60f73" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "99f1812d80c17684",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747780862,
+        "stop" : 1663747781875,
+        "duration" : 1013
+      }
+    } ]
+  },
+  "bd63c4e919b1215c39efe2f7a43312a8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "77a7c5762bb6c43c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663751735704,
+        "stop" : 1663751775793,
+        "duration" : 40089
+      }
+    } ]
+  },
+  "6ce161487c9ace98aae5798010a5ba53" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bc6397ab286bf8c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663745268368,
+        "stop" : 1663745299441,
+        "duration" : 31073
+      }
+    } ]
+  },
+  "a88a75418fb9c54199a87141115d7ab7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6469ea22665dac18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663751928709,
+        "stop" : 1663751941243,
+        "duration" : 12534
+      }
+    } ]
+  },
+  "1fafdf4c942be0c1221c523475adb8e6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "737c098318f336c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663751810881,
+        "stop" : 1663751823602,
+        "duration" : 12721
+      }
+    } ]
+  },
+  "d85af16e4495ba80196f0cb9c50cc284" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cbf5e6e28e3de65a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663748587674,
+        "stop" : 1663748607504,
+        "duration" : 19830
+      }
+    } ]
+  },
+  "c96bb6b42d4b7774c47ed3dbba546def" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5595cdbc20d89fd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663751035641,
+        "stop" : 1663751048218,
+        "duration" : 12577
+      }
+    } ]
+  },
+  "469e44fd60650bb371b21359fae921ea" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "15ba693ffb448eed",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663753052806,
+        "stop" : 1663753093089,
+        "duration" : 40283
+      }
+    } ]
+  },
+  "c9254d00969fd5108987419a536b77b4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9e09db553d1cf5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663752109777,
+        "stop" : 1663752127222,
+        "duration" : 17445
+      }
+    } ]
+  },
+  "6c5364c73880c2abfede3bd4a9545f51" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a95d4c37352f2df3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663751012467,
+        "stop" : 1663751024361,
+        "duration" : 11894
+      }
+    } ]
+  },
+  "7d29ece3744c4338949e1f3644c6daaf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "62c42e915bb9497b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663750201144,
+        "stop" : 1663750255770,
+        "duration" : 54626
+      }
+    } ]
+  },
+  "c183fa7afdb28a129da525ac81c95dc5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d626ab8c744e321a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663748974577,
+        "stop" : 1663748989273,
+        "duration" : 14696
+      }
+    } ]
+  },
+  "27eccc23b0d80d630701e0e71d8dcea9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6d252fcd045b1f7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663837547398,
+        "stop" : 1663837547466,
+        "duration" : 68
+      }
+    } ]
+  },
+  "a1a23b7ae690347d69324e1bb538ff01" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce7859298e08764f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663753537142,
+        "stop" : 1663753579475,
+        "duration" : 42333
+      }
+    } ]
+  },
+  "4a05dd9952e19f51323d4ced2a43c71c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ec46be13ce0a76f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663752729249,
+        "stop" : 1663752745333,
+        "duration" : 16084
+      }
+    } ]
+  },
+  "e0e18ee94893bb180538f6b79c17d79e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5636e18ac17788c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747345987,
+        "stop" : 1663747417229,
+        "duration" : 71242
+      }
+    } ]
+  },
+  "d8e5101062a4fdeda45b4f1f42b3df24" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c1be3d9ad7ee5d16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663749561427,
+        "stop" : 1663749594715,
+        "duration" : 33288
+      }
+    } ]
+  },
+  "63327e1373e6e9ac89f991257d90fad6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b81a39750b2f9005",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663747429380,
+        "stop" : 1663747456902,
+        "duration" : 27522
+      }
+    } ]
+  },
+  "e0367c0ad79fa13bacdb2183a9a64826" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "964def51d29dd967",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\laixinhua\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1663753370058,
+        "stop" : 1663753412133,
+        "duration" : 42075
+      }
+    } ]
+  },
+  "21a2d1d60f77330da8d56bbd3cb8246a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1e112474d480eefe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663750854584,
+        "stop" : 1663750873308,
+        "duration" : 18724
+      }
+    } ]
+  },
+  "15cafa283329d91e16731a087c053df7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a85af83fe88cd14c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663751602625,
+        "stop" : 1663751615414,
+        "duration" : 12789
+      }
+    } ]
+  },
+  "84e2ea9ed4fae31c2eb97c7c782fe7ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "74ba103548cde0be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663748619066,
+        "stop" : 1663748633702,
+        "duration" : 14636
+      }
+    } ]
+  },
+  "0f6a3233427623c7d11ac1e6430fd34c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9c9ea30673a22041",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663754776617,
+        "stop" : 1663754790140,
+        "duration" : 13523
+      }
+    } ]
+  },
+  "7e0b161b4d8f974bfca89a55b54732f0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e9bb0a917bb83178",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663754717153,
+        "stop" : 1663754735751,
+        "duration" : 18598
+      }
+    } ]
+  }
+}

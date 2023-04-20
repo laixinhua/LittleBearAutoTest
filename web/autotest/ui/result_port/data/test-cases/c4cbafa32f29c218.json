@@ -1,0 +1,105 @@
+{
+  "uid" : "c4cbafa32f29c218",
+  "name" : "test_Contact_manufacturers_for_3D_products",
+  "fullName" : "api.testcase.ExhibitionHall.test_3D_product_api.Test3DProduct#test_Contact_manufacturers_for_3D_products",
+  "historyId" : "09ff9828c920de576ad5ce86f1eafc79",
+  "time" : {
+    "start" : 1675327456892,
+    "stop" : 1675327456900,
+    "duration" : 8
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'token'",
+  "statusTrace" : "self = <test_3D_product_api.Test3DProduct object at 0x00000177F2FB7FA0>\n\n    def test_Contact_manufacturers_for_3D_products(self):\n        # 获取token\n>       TestLogin().test_Hall_Role_Login()\n\napi\\testcase\\ExhibitionHall\\test_3D_product_api.py:334: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\napi\\testcase\\common\\test_login_api.py:235: in test_Hall_Role_Login\n    TestLogin().test_login_Universal_verification_code()\napi\\testcase\\common\\test_login_api.py:105: in test_login_Universal_verification_code\n    token = read_extract_yaml(\"token\")\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nkey = 'token'\n\n    def read_extract_yaml(key):\n        with open(config.extract_yaml_dir,mode='r',encoding='utf-8') as f:\n            value = yaml.load(stream=f,Loader=yaml.FullLoader)\n>           return value[key]\nE           KeyError: 'token'\n\napi\\common\\yaml_util.py:10: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "clear_yaml",
+    "time" : {
+      "start" : 1675327442041,
+      "stop" : 1675327442042,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1675327442042,
+      "stop" : 1675327442164,
+      "duration" : 122
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "api.testcase.ExhibitionHall"
+  }, {
+    "name" : "suite",
+    "value" : "test_3D_product_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test3DProduct"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-04R5F8L"
+  }, {
+    "name" : "thread",
+    "value" : "13064-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api.testcase.ExhibitionHall.test_3D_product_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "762f94273d81550f",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'token'",
+      "time" : {
+        "start" : 1675327455869,
+        "stop" : 1675327455875,
+        "duration" : 6
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c4cbafa32f29c218.json",
+  "parameterValues" : [ ]
+}

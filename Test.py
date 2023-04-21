@@ -79,7 +79,7 @@ if __name__ == '__main__':
             fp.write(img_data)
             print(img_name,'下载完成!')
 
-print(12345)
+print(123)
 
 
 

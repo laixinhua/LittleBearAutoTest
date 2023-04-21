@@ -1,7 +1,6 @@
 import pytest
 import logging
 
-from api.common.yaml_util import isTest
 from page_obj.common.login_page import LoginPage
 import allure
 from hamcrest import *
@@ -54,28 +53,20 @@ class TestLogin:
     @pytest.mark.flaky(reruns=2, reruns_delay=3)  # 失败重跑
     def test_login(self, app_page):
         # isTest = False #True 测试环境 False 正式环境
-        if isTest() == True:
-            LoginPage(app_page).login('13538262412',"868385",app_page)
-            logging.info("开始断言")
-            assert_that("欢迎来到小竹熊", contains_string('欢迎来到小竹熊'),"登录失败，请联系开发查找原因！")
-        else:
-            LoginPage(app_page).login('13642562621','157359',app_page)
-            logging.info("开始断言")
-            assert_that("欢迎来到小竹熊", contains_string('欢迎来到小竹熊'),"登录失败，请联系开发查找原因！")
+        LoginPage(app_page).login('13538262412',"868385",app_page)
+        logging.info("开始断言")
+        assert_that("欢迎来到小竹熊", contains_string('欢迎来到小竹熊'),"登录失败，请联系开发查找原因！")
+
 
     @allure.story("手机登录")  # allure子模块名称
     @allure.title("验证码登录")  # allure用例标题
     @pytest.mark.flaky(reruns=2, reruns_delay=3)  # 失败重跑
     def test_login_with_verification_code(self, app_page):
-        # isTest = False #True 测试环境 False 正式环境
-        if isTest() == True:
-            LoginPage(app_page).login_with_verification_code('13538262412',app_page)
-            logging.info("开始断言")
-            assert "欢迎来到小竹熊" in app_page.page_source
-        else:
-            LoginPage(app_page).login_with_verification_code('13642562621',app_page)
-            logging.info("开始断言")
-            assert "欢迎来到小竹熊" in app_page.page_source
+        #isTest = False #True 测试环境 False 正式环境
+        LoginPage(app_page).login_with_verification_code('13538262412',app_page)
+        logging.info("开始断言")
+        assert "欢迎来到小竹熊" in app_page.page_source
+
 
     @allure.story("手机登录")  # allure子模块名称
     @allure.title("微信登录")  # allure用例标题

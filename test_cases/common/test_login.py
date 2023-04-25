@@ -63,7 +63,7 @@ class TestLogin:
     @pytest.mark.flaky(reruns=2, reruns_delay=3)  # 失败重跑
     def test_login_with_verification_code(self, app_page):
         #isTest = False #True 测试环境 False 正式环境
-        LoginPage(app_page).login_with_verification_code('13538262412',app_page)
+        LoginPage(app_page).login_with_verification_code('13642562621',app_page)
         logging.info("开始断言")
         assert "欢迎来到小竹熊" in app_page.page_source
 

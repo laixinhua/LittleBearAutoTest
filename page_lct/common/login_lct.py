@@ -19,6 +19,8 @@ Exit_application = '//*[starts-with(@text,"退出应用")]'
 Please_enter_your_mobile_number = '//*[starts-with(@text,"请输入手机号")]'
 #请输入验证码
 Please_enter_the_verification_code = '//*[starts-with(@text,"请输入验证码")]'
+#默认验证码
+Default_verification_code = '//*[starts-with(@text,"868385")]'
 #获取验证码
 Get_verification_code = '//*[starts-with(@text,"获取验证码")]'
 #勾选按钮

@@ -4,7 +4,8 @@ from common.basepage import BasePage
 
 from page_lct.common import login_lct, Visitor_login_lct, register_lct
 import allure
-from api.testcase.common.atest_login_api import TestLogin
+from common.GetVerificationCode import TestGetVerificationCode
+
 
 
 class LoginPage(BasePage):
@@ -96,11 +97,15 @@ class LoginPage(BasePage):
         with allure.step("点击获取验证码"):
             print("点击获取验证码")
         self.click_element(login_lct.Get_verification_code)
-        verification_code = TestLogin.test_get_verification_code(app_page)
-        time.sleep(2)
-        with allure.step("输入验证码：{0}".format(verification_code)):
-            print("输入验证码：{0}".format(verification_code))
-        self.input_text(verification_code, login_lct.Please_enter_the_verification_code)
+        time.sleep(5)
+        name = self.find_element(login_lct.Default_verification_code).text
+        # 123 光标移至末尾
+        self.driver.keyevent(123)
+        for i in range(0, len(name)):
+            # 67 退格键
+            self.driver.keyevent(67)
+        self.clear_text(login_lct.Default_verification_code)
+        self.input_text(TestGetVerificationCode().test_LoginAdministrator(),login_lct.Please_enter_the_verification_code)
         with allure.step("勾选我同意并阅读《用户服务协议》与《隐私政策》"):
             print("勾选我同意并阅读《用户服务协议》与《隐私政策》")
         self.click_element(login_lct.Tick_button)

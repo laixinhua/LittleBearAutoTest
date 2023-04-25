@@ -99,6 +99,7 @@ class LoginPage(BasePage):
         self.click_element(login_lct.Get_verification_code)
         time.sleep(5)
         name = self.find_element(login_lct.Default_verification_code).text
+        self.click_element(login_lct.Default_verification_code)
         # 123 光标移至末尾
         self.driver.keyevent(123)
         for i in range(0, len(name)):
